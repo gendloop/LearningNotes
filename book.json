@@ -1,5 +1,5 @@
 {
-    "title": "template-GitbookProject",
+    "title": "LearningNotes",
     "author": "gendloop",
     "description": "DESC",
     "gitbook": ">=3.2.3",
@@ -59,7 +59,7 @@
     ],
     "pluginsConfig": {
         "sidebar-style": {
-            "title": "template-GitbookProject",
+            "title": "LearningNotes",
             "author": "gendloop"
         },
         "anchor-navigation-ex": {
@@ -88,15 +88,15 @@
             "skipFirstH1": true
         },
         "github": {
-            "url": "https://github.com/gendloop/template-GitbookProject"
+            "url": "https://github.com/gendloop/LearningNotes"
         },
         "github-buttons": {
-            "repo": "gendloop/template-GitbookProject",
+            "repo": "gendloop/LearningNotes",
             "types": [],
             "size": "small"
         },
         "edit-link": {
-            "base": "https://github.com/gendloop/template-GitbookProject/edit/main",
+            "base": "https://github.com/gendloop/LearningNotes/edit/main",
             "label": "Edit"
         },
         "disqus": {
@@ -116,15 +116,15 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "wechat": "/template-GitbookProject/assets/images/wechat.png",
-            "alipay": "/template-GitbookProject/assets/images/alipay.png",
+            "wechat": "/LearningNotes/assets/images/wechat.png",
+            "alipay": "/LearningNotes/assets/images/alipay.png",
             "title": "鼓励一下",
             "button": "赞赏",
             "alipayText": "支付宝打赏",
             "wechatText": "微信打赏"
         },
         "sitemap-general": {
-            "prefix": "https://gendloop.github.io/template-GitbookProject/"
+            "prefix": "https://gendloop.github.io/LearningNotes/"
         },
         "favicon": {
             "shortcut": "assets/images/favicon.ico",
@@ -144,14 +144,14 @@
             "style": "flat"
         },
         "rss": {
-            "title": "template-GitbookProject",
+            "title": "LearningNotes",
             "description": "DESC",
             "author": "gendloop",
-            "feed_url": "https://gendloop.github.io/template-GitbookProject/rss",
-            "site_url": "https://gendloop.github.io/template-GitbookProject",
+            "feed_url": "https://gendloop.github.io/LearningNotes/rss",
+            "site_url": "https://gendloop.github.io/LearningNotes",
             "managingEditor": "gendloop@163.com",
             "webMaster": "gendloop@163.com",
-            "categories": ["gitbook", "template-GitbookProject"]
+            "categories": ["gitbook", "LearningNotes"]
         },
         "chart": {
             "type": "c3"
