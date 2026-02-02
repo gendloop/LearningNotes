@@ -1,3 +1,0 @@
-# REPO
-
-Proj Intro.
