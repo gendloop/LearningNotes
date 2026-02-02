@@ -1,0 +1,5 @@
+
+PROJECT_NAME=template-GitbookProject
+template-GitbookProject_VERSION_MAJOR=1
+template-GitbookProject_VERSION_MINOR=0
+template-GitbookProject_VERSION_PATCH=0

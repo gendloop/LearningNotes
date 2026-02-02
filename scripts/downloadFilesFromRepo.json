@@ -1,0 +1,49 @@
+{
+    "datas":[
+        {
+            "files": [
+                ".github/workflows/Release_Version.yml"
+            ],
+            "local_dir": "../.github/workflows",
+            "user": "gendloop",
+            "repo": "release-version",
+            "branch": "main",
+            "is_private": false,
+            "token": ""
+        },
+        {
+            "files": [
+                ".github/workflows/Sync_Download.yml"
+            ],
+            "local_dir": "../.github/workflows",
+            "user": "gendloop",
+            "repo": "sync-download",
+            "branch": "main",
+            "is_private": false,
+            "token": ""
+        },
+        {
+            "files": [
+                "GitHubActions/FUNDING.yml"
+            ],
+            "local_dir": "../.github",
+            "user": "gendloop",
+            "repo": "Tools",
+            "branch": "main",
+            "is_private": true,
+            "token": ""
+        },
+        {
+            "files": [
+                "Standardization/.editorconfig",
+                "Standardization/.markdownlint.json"
+            ],
+            "local_dir": "..",
+            "user": "gendloop",
+            "repo": "Tools",
+            "branch": "main",
+            "is_private": true,
+            "token": ""
+        }
+    ]
+}

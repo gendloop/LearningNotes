@@ -1,0 +1,160 @@
+{
+    "title": "template-GitbookProject",
+    "author": "gendloop",
+    "description": "DESC",
+    "gitbook": ">=3.2.3",
+    "language": "zh-hans",
+    "root": ".",
+    "structure": {
+        "readme": "INTRO.md"
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 11
+    },
+    "plugins": [
+        "-lunr",
+        "-highlight",
+        "-search",
+        "search-plus@0.0.11",
+        "-sharing",
+        "sharing-plus@0.0.2",
+        "splitter@0.0.8",
+        "mermaid-gb3@2.1.0",
+        "expandable-chapters-small@0.1.7",
+        "anchor-navigation-ex@1.0.14",
+        "simple-page-toc@0.1.1",
+        "github@2.0.0",
+        "github-buttons@2.1.0",
+        "edit-link@2.0.2",
+        "disqus@0.1.0",
+        "prism@2.4.0",
+        "prism-themes@0.0.2",
+        "advanced-emoji@0.2.2",
+        "anchors@0.7.1",
+        "include-codeblock@3.2.3",
+        "ace@0.3.2",
+        "emphasize@1.1.0",
+        "katex-mhchem@0.16.9",
+        "tbfed-pagefooter@0.0.1",
+        "donate@1.0.2",
+        "sitemap-general@0.1.1",
+        "favicon@0.0.2",
+        "todo@0.1.3",
+        "3-ba@0.9.0",
+        "terminal@0.3.2",
+        "alerts@0.2.0",
+        "include-csv@0.1.0",
+        "puml@1.0.1",
+        "musicxml@1.0.2",
+        "klipse@1.2.0",
+        "versions-select@0.1.1",
+        "rss@3.0.2",
+        "graph@0.1.0",
+        "chart@0.2.0",
+        "code@0.1.0",
+        "theme-comscore@0.0.3",
+        "sidebar-style@1.0.2"
+    ],
+    "pluginsConfig": {
+        "sidebar-style": {
+            "title": "template-GitbookProject",
+            "author": "gendloop"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": true,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": false,
+            "mode": "float",
+            "showGoTop": true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "github": {
+            "url": "https://github.com/gendloop/template-GitbookProject"
+        },
+        "github-buttons": {
+            "repo": "gendloop/template-GitbookProject",
+            "types": [],
+            "size": "small"
+        },
+        "edit-link": {
+            "base": "https://github.com/gendloop/template-GitbookProject/edit/main",
+            "label": "Edit"
+        },
+        "disqus": {
+            "shortName": "gendloop"
+        },
+        "prism": {
+            "css": ["prism-themes/themes/prism-vs.min.css"]
+        },
+        "include-codeblock": {
+            "template": "acefull",
+            "unindent": true,
+            "edit": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy gendloop 2024",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "donate": {
+            "wechat": "/template-GitbookProject/assets/images/wechat.png",
+            "alipay": "/template-GitbookProject/assets/images/alipay.png",
+            "title": "鼓励一下",
+            "button": "赞赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "sitemap-general": {
+            "prefix": "https://gendloop.github.io/template-GitbookProject/"
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/favicon.ico",
+            "appleTouchMore": {
+                "120x120": "assets/images/favicon.ico",
+                "180x180": "assets/images/favicon.ico"
+            }
+        },
+        "3-ba": {
+            "token": "ab48cc3bf9dab9fbecc9fb216b38b778"
+        },
+        "terminal": {
+            "copyButtons": false,
+            "fade": false,
+            "style": "flat"
+        },
+        "rss": {
+            "title": "template-GitbookProject",
+            "description": "DESC",
+            "author": "gendloop",
+            "feed_url": "https://gendloop.github.io/template-GitbookProject/rss",
+            "site_url": "https://gendloop.github.io/template-GitbookProject",
+            "managingEditor": "gendloop@163.com",
+            "webMaster": "gendloop@163.com",
+            "categories": ["gitbook", "template-GitbookProject"]
+        },
+        "chart": {
+            "type": "c3"
+        }
+    }
+}
