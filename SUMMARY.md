@@ -1,6 +1,8 @@
 # Summary
 
-* tools
+* [首页](INTRO.md)
+
+* Tools
   * [7z](docs/tools/7z/README.md)
   * [curl](docs/tools/curl/README.md)
   * [docker](docs/tools/docker/README.md)
@@ -20,7 +22,7 @@
   * [vscode](docs/tools/vscode/README.md)
   * [zsh](docs/tools/zsh/README.md)
 
-* languages
+* Languages
   * [c++](docs/languages/c++/README.md)
   * [cmake](docs/languages/cmake/README.md)
   * [frontend](docs/languages/frontend/README.md)
@@ -29,7 +31,7 @@
   * [perl](docs/languages/perl/README.md)
   * [wubi](docs/languages/wubi/README.md)
 
-* summary
+* Summary
   * [design-patterns](docs/summary/design-patterns/README.md)
   * [links](docs/summary/links/README.md)
   * [specifications](docs/summary/specifications/README.md)

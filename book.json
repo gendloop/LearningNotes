@@ -5,6 +5,9 @@
     "gitbook": ">=3.2.3",
     "language": "zh-hans",
     "root": ".",
+    "structure": {
+        "readme": "INTRO.md"
+    },
     "pdf": {
         "toc": true,
         "pageNumbers": true,
