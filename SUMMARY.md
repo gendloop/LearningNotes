@@ -1,8 +1,7 @@
 # Summary
 
 * [首页](INTRO.md)
-  * [7z](docs/tools/7z/README.md)
-* Tools
+* [Tools](docs/tools/README.md)
   * [7z](docs/tools/7z/README.md)
   * [curl](docs/tools/curl/README.md)
   * [docker](docs/tools/docker/README.md)
