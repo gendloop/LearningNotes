@@ -1,6 +1,8 @@
 # Let's learn
 
-* Tools
+记录学习笔记
+
+* [Tools](docs/tools/README.md)
   * [7z](docs/tools/7z/README.md)
   * [curl](docs/tools/curl/README.md)
   * [docker](docs/tools/docker/README.md)
@@ -19,7 +21,8 @@
   * [vs](docs/tools/vs/README.md)
   * [vscode](docs/tools/vscode/README.md)
   * [zsh](docs/tools/zsh/README.md)
-* Languages
+
+* [Languages](docs/languages/README.md)
   * [c++](docs/languages/c++/README.md)
   * [cmake](docs/languages/cmake/README.md)
   * [frontend](docs/languages/frontend/README.md)
@@ -27,7 +30,8 @@
   * [linux](docs/languages/linux/README.md)
   * [perl](docs/languages/perl/README.md)
   * [wubi](docs/languages/wubi/README.md)
-* Summary
+
+* [Summary](docs/summary/README.md)
   * [design-patterns](docs/summary/design-patterns/README.md)
   * [links](docs/summary/links/README.md)
   * [specifications](docs/summary/specifications/README.md)

@@ -1,4 +1,4 @@
-# tools
+# Tools
 
 * [7z](docs/tools/7z/README.md)
 * [curl](docs/tools/curl/README.md)
