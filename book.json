@@ -103,6 +103,27 @@
             "shortName": "gendloop"
         },
         "prism": {
+            "lang": [
+                "bash",
+                "cpp",
+                "css",
+                "diff",
+                "git",
+                "java",
+                "javascript",
+                "json",
+                "lua",
+                "markdown",
+                "nginx",
+                "php",
+                "python",
+                "ruby",
+                "shell-session",
+                "sql",
+                "xml",
+                "yaml",
+                "docker"
+            ],
             "css": ["prism-themes/themes/prism-vs.min.css"]
         },
         "include-codeblock": {

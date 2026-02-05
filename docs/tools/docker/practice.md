@@ -70,7 +70,7 @@
 
 ### 1-CMD
 
-```docker
+```dockerfile
 FROM alpine:latest
 CMD ["echo", "Hello, I'm your first dockerfile"]
 ```
@@ -83,7 +83,7 @@ docker run --rm gendloop/cmd:v0.0.1 /bin/sh -c "echo Default is covered."
 
 ### 2-RUN
 
-```docker
+```dockerfile
 FROM alpine:latest
 RUN apk update && apk add curl
 CMD ["echo", "Hello, I'm your second dockerfile"]
@@ -96,7 +96,7 @@ docker run --rm gendloop/run:v0.0.1
 
 ### 3-COPY
 
-```docker
+```dockerfile
 FROM alpine:latest
 COPY file.txt /app/file.txt
 CMD ["cat", "/app/file.txt"]
@@ -109,7 +109,7 @@ docker run --rm gendloop/copy:v0.0.1
 
 ### 4-ENV
 
-```docker
+```dockerfile
 FROM alpine:latest
 ENV MY_NAME="gendloop" NUMBER="third"
 CMD echo "Hello, $MY_NAME, I'm your $NUMBER dockerfile."
@@ -123,7 +123,7 @@ docker run --rm -e MY_NAME="momo" -e NUMBER="fourth" gendloop/env:v0.0.1
 
 ### 5-ENTRYPOINT
 
-```docker
+```dockerfile
 FROM alpine:latest
 ENTRYPOINT ["echo", "Hello,"]
 CMD ["youth"]
@@ -137,7 +137,7 @@ docker run --rm gendloop/entrypoint:v0.0.1 newcomer
 
 ### 6-WORKDIR
 
-```docker
+```dockerfile
 FROM alpine:latest
 WORKDIR /usr
 WORKDIR src
@@ -151,7 +151,7 @@ docker run --rm gendloop/workdir:v0.0.1
 
 ### 7-ARG
 
-```docker
+```dockerfile
 FROM alpine:latest
 ARG VERSION="0.0.0"
 ENV USER="who"
@@ -169,7 +169,7 @@ docker run --rm gendloop:v0.0.1
 
 ### 8-VOLUME
 
-```docker
+```dockerfile
 FROM alpine:latest
 VOLUME /app
 RUN mdir -p /app \
@@ -185,7 +185,7 @@ docker run -v 8-volume-data:/app --rm guide:v0.0.8
 
 ### 9-ONBUILD
 
-```docker
+```dockerfile
 FROM alpine
 ONBUILD COPY . /app
 CMD ["echo", "Basic image is ready."]
@@ -195,7 +195,7 @@ CMD ["echo", "Basic image is ready."]
 docker build -t guide-base:v0.0.9 -f Dockerfile.base .
 ```
 
-```docker
+```dockerfile
 FROM guide-base:v0.0.9
 CMD ["ls", "/app"]
 ```
@@ -223,7 +223,7 @@ docker image inspect guide-base:v0.0.9
 
 ### 10-USER
 
-```docker
+```dockerfile
 FROM alpine:latest
 RUN adduser -D gendloop
 USER gendloop
@@ -238,7 +238,7 @@ docker inspect guide:v0.0.10
 
 ### 11-LABEL
 
-```docker
+```dockerfile
 FROM alpine:latest
 LABEL \
   author="gendloop"
@@ -254,7 +254,7 @@ docker image inspect guide:v0.0.11
 
 ### 12-SHELL
 
-```docker
+```dockerfile
 FROM ubuntu:15.10
 SHELL ["/bin/bash" "-c"]
 ```
@@ -267,7 +267,7 @@ docker run --rm guide:v0.0.12 /bin/bash -c dirs
 
 ### 13-AS
 
-```docker
+```dockerfile
 FROM alpine:latest AS stage1
 RUN echo "I'm the first stage." > stage1.txt
 CMD echo "Stage1 is ready." && pwd
@@ -300,7 +300,7 @@ docker run --rm guide:v0.0.13
 
 1. 构建 alpine-with-ping 镜像
 
-    ```docker
+    ```dockerfile
     FROM alpine:latest
     RUN apk add iputils-ping
     CMD ping -n 4 baidu.com
