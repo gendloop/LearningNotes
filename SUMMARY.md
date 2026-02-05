@@ -4,7 +4,8 @@
 
 * [Tools](docs/tools/README.md)
   * [7z](docs/tools/7z/README.md)
-    * [examples.md](docs/tools/7z/examples.md)
+    * [Guide](docs/tools/7z/guide.md)
+    * [Examples](docs/tools/7z/examples.md)
   * [curl](docs/tools/curl/README.md)
   * [docker](docs/tools/docker/README.md)
   * [doxygen](docs/tools/doxygen/README.md)
