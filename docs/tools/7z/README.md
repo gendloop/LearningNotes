@@ -1,1 +1,1 @@
-* [examples.md](examples.md)
+* [Examples](examples.md)
