@@ -2,7 +2,7 @@
 
 ## FROM 指定基础镜像
 
-```bash
+```docker
 # 如服务类镜像
 nginx, redis, mongo, mysql, httpd, php, tomcat
 # 运行语方类镜像
@@ -15,7 +15,7 @@ scratch
 
 ## RUN 构建镜像时执行命令
 
-```bash
+```docker
 # shell 格式
 RUN echo '<h1>Hello, gendloop!</h1>' > /usr/share/nginx/html/index.html
 # exec 格式
@@ -38,7 +38,7 @@ RUN set -x; buildDeps='gcc libc6-dev make wget' \
 
 ## COPY复制
 
-```bash
+```docker
 COPY [--chown=<user>:<group>] <source>,... <destination>
 COPY [--chown=<user>:<group>] "<source>",... "<destination>"
 COPY package.json /usr/src/app/
@@ -51,14 +51,14 @@ COPY EmptyFolder/* /mydir/
 
 ## ADD更高级的复制
 
-```bash
+```docker
 # 功能在 COPY 基础上 增加自动解压缩
 # 仅当源路径为 tar 压缩文件 (格式: gzip, bzip2, xz) 时使用
 ```
 
 ## CMD指定容器默认启动命令
 
-```bash
+```docker
 # 一个 Dockerfile 只能有一个 COM 指令
 # 如
 CMD ["sh", "-c", "echo $HOME"]
@@ -67,7 +67,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ## ENTRYPOINT入口点
 
-```bash
+```docker
 # 1. 使用了 ENTRYPOINT, 而没有指定 CMD, ENTRYPOINT 指定的命令即入口点
 #    启动时传入的任何参数都会作为 ENTRYPOINT 命令的参数
 FROM ubuntu:18.04
@@ -91,7 +91,7 @@ docker run myubuntu "World"
 
 ## ENV环境变量
 
-```bash
+```docker
 # ENV <key> <value>
 # ENV <key1>=<value1> <key2>=<value2>...
 # 支持 环境变量的指令有: ADD, COPY, ENV, EXPOSE, FROM
@@ -104,7 +104,7 @@ CMD echo "Hello, $MY_NAME! Welcome to $MY_HOME"
 
 ## ARG构建参数
 
-```bash
+```docker
 # ARG 指令用于定义构建镜像时传递的参数
 # ENV 指令用于容器运行时内部的环境变量
 # ARG 指定生效范围: 如果在 FROM 指令前指定, 则只能用于 FROM 指令中
@@ -120,7 +120,7 @@ docker build --build-arg VERSION=v1.2.3 -t myapp .
 
 ## VOLUME定义匿名卷
 
-```bash
+```docker
 # VOLUME ["<path1>", "<path2>"...]
 VOLUME /data
 
@@ -129,7 +129,7 @@ docker run -d -v mydata:/data xxx
 
 ## EXPOSE声明端口
 
-```bash
+```docker
 # EXPOSE <port1> [<port2>/<protocol>...]
 # EXPOSE 指令仅是一个元数据, 用于声明容器内部服务运行的端口, 并不会实际打开或映射端口
 # 推荐放在 CMD 或 ENTRYPOINT 之前
@@ -141,7 +141,7 @@ EXPOSE 443/udp
 
 ## WORKDIR指定工作目录
 
-```bash
+```docker
 # WORKDIR <path>
 # 功能: 改变以后 各层 的工作目录和位置
 # 相对路径是相对于前一个 WORDIR 指令或 Dockerfile 的当前目录
@@ -154,7 +154,7 @@ RUN pwd # /a/b/c
 
 ## USER指定当前用户
 
-```bash
+```docker
 # USER <user>[:<group>]
 RUN groupadd -r redis && useradd -r -g redis redis
 USER redis
@@ -163,7 +163,7 @@ RUN [ "redis-server" ]
 
 ## HEALTHCHECK健康检查
 
-```bash
+```docker
 # HEALTHCHECK NONE # 屏蔽基础镜像的健康检查指令
 # HEALTHCHECK [options] CMD <cmd>
 # - options:
@@ -187,7 +187,7 @@ docker inspect --format '{{json .State.Health}}' web | python -m json.tool
 
 ## ONBUILD为他人做嫁衣
 
-```bash
+```docker
 # ONBUILD <other_cmds>
 
 # Stage1
@@ -224,7 +224,7 @@ FROM my-node
 
 ## LABEL指令
 
-```bash
+```docker
 # LABEL <key1>=<value1> <key2>=<value2>...
 # 功能: 用来给镜像以键值对的形式添加一些元数据
 LABEL org.opencontainers.image.authors="gendloop"
@@ -234,7 +234,7 @@ LABEL org.opencontainers.image.references="https://github.com/opencontainers/ima
 
 ## SHELL指令
 
-```bash
+```docker
 # SHELL [ "<exe>", "<params>"]
 # 功能: 指定 RUN, ENTRYPOINT, CMD 指令中的 shell, 默认为 [ "/bin/sh", "-c" ]
 SHELL ["/bin/sh", "-cex"]

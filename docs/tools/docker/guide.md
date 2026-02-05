@@ -333,7 +333,7 @@ docker rmi feb5d9fea6a5
 
 2. 使用 Dockerfile 指令创建一个新的镜像
 
-    ```bash
+    ```docker
     FROM ubuntu
     MAINTAINER gendloop "gendloop@163.com"
     RUN /bin/echo 'gendloop:g' | chpasswd
@@ -462,7 +462,7 @@ Dockerfile 是一个用来构建镜像的文本文件
 
 1. 创建 Dockfile 文件
 
-    ```bash
+    ```docker
     FROM nginx
     RUN echo '一个本地构建的 nginx 镜像' > /usr/share/nginx/html/index.html
     ```
@@ -474,7 +474,7 @@ Dockerfile 是一个用来构建镜像的文本文件
 
     Dockerfile 的指令每执行一次都会在 docker 上创建一层, 过多无意义的层, 会造成镜像过大, 如:
 
-    ```bash
+    ```docker
     FROM centos
     RUN yum -y install wget
     RUN wget -O redis.tar.gz "http://download.redis.io/releases/redis-5.0.3.tar.gz"
@@ -483,7 +483,7 @@ Dockerfile 是一个用来构建镜像的文本文件
 
     会创建 3 层镜像, 使用以下命令可简化为一层镜像
 
-    ```bash
+    ```docker
     FROM centos
     RUN yum -y install wget \
     && wget -O redis.tar.gz "http://download.redis.io/releases/redis-5.0.3.tar.gz"
@@ -502,7 +502,7 @@ Dockerfile 是一个用来构建镜像的文本文件
 
 ### Dockerfile多阶段构建
 
-```bash
+```docker
 FROM golang:alpine as builder
 RUN apk --no-cache add git
 WORKDIR /go/src/github.com/go/helloworld/
@@ -520,7 +520,7 @@ docker build -t go/helloworld:3 .
 
 ### 只构建某一阶段的镜像
 
-```bash
+```docker
 FROM golang:alpine as builder
 
 docker build --target builder -t username/imagename:tag .
@@ -528,7 +528,7 @@ docker build --target builder -t username/imagename:tag .
 
 ### 构建时从其它镜像复制文件
 
-```bash
+```docker
 COPY --from=0 /go/src/github.com/go/helloworld/app . # 0 表示构建阶段的编号
 COPY --from=nginx:latest /etc/nginx/nginx.conf /nginx.conf
 ```

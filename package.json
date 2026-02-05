@@ -27,7 +27,7 @@
         "gitbook-plugin-graph": "^0.1.0",
         "gitbook-plugin-include-codeblock": "^3.2.3",
         "gitbook-plugin-include-csv": "^0.1.0",
-        "gitbook-plugin-katex-mhchem": "^0.16.9",
+        "gitbook-plugin-katex": "^1.1.4",
         "gitbook-plugin-klipse": "^1.2.0",
         "gitbook-plugin-mermaid-gb3": "^2.1.0",
         "gitbook-plugin-musicxml": "^1.0.2",
