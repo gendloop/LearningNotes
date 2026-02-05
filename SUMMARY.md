@@ -9,6 +9,7 @@
   * [curl](docs/tools/curl/README.md)
     * [Summary](docs/tools/curl/summary.md)
   * [docker](docs/tools/docker/README.md)
+    * [Guide](docs/tools/docker/guide.md)
   * [doxygen](docs/tools/doxygen/README.md)
   * [ffmpeg](docs/tools/ffmpeg/README.md)
   * [git](docs/tools/git/README.md)
