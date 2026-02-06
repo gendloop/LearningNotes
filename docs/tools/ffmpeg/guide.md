@@ -33,7 +33,7 @@ ffmpeg [global_options]
 Transcoding process
 
 ```mermaid
-graph
+graph LR
 A[input file] -->|demuxer| B[encoded data packets]
 A[input file] -->|decoder| C[decoded frames]
 A[input file] -->|encoder| D[encoded data packets]
@@ -175,6 +175,7 @@ input file 'C.mkv'
 ```
 
 > .avi, .mkv, .mov, .mp4: support video, audio
+>
 > .wav: only support audio
 
 #### Example: automatic stream selection
