@@ -107,10 +107,10 @@ vim ./config/daemon.json
     "阿里云: https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors"
     "华为云: https://console.huaweicloud.com/swr"
   ],
-	"proxies": {
-		"http-proxy": "localhost:10809",
-		"https-proxy": "localhost:10809"
-	}
+  "proxies": {
+    "http-proxy": "localhost:10809",
+    "https-proxy": "localhost:10809"
+  }
 }
 
 ```

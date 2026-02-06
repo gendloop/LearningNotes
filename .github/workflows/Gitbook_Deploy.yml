@@ -5,14 +5,14 @@ on:
     branches:
       - main
     paths:
-      - 'assets/**'
-      - 'contents/**'
-      - 'docs/**'
-      - 'INTRO.md'
-      - 'SUMMARY.md'
-      - 'GLOSSARY.md'
-      - 'book.json'
-      - 'package.json'
+      - "assets/**"
+      - "contents/**"
+      - "docs/**"
+      - "INTRO.md"
+      - "SUMMARY.md"
+      - "GLOSSARY.md"
+      - "book.json"
+      - "package.json"
   workflow_dispatch:
 
 jobs:
