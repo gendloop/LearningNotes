@@ -1,5 +1,17 @@
 # Config
 
-## HTML COnfiguration
+## HTML Configuration
 
-[import](html_config.xlsx)
+todo
+
+## Build Configuration
+
+todo
+
+## Project Configuration
+
+todo
+
+## Input Configuration
+
+todo
