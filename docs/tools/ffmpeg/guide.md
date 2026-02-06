@@ -33,7 +33,7 @@ ffmpeg [global_options]
 Transcoding process
 
 ```mermaid
-flowchart
+graph
 A[input file]
 -->|demuxer| B[encoded data packets]
 -->|decoder| C[decoded frames]
@@ -50,7 +50,7 @@ Before encoding, `ffmpg` can process raw audio and video frames using filters fr
 Simple filtergraphs are those that have excatly one input and output, both of the same type.
 
 ```mermaid
-flowchart LR
+graph LR
 A[decoded frames]
 -->|simple filtergraph| B[filterd frames]
 -->|encoder| C[encoded data packets]
@@ -59,7 +59,7 @@ A[decoded frames]
 A simple filtergraph for video can look for example like this
 
 ```mermaid
-flowchart LR
+graph LR
 A[input]
 --> B[deinterlace]
 --> C[scale]
@@ -79,7 +79,7 @@ Complexx filtergraphs are those which cannot be described as simply a linear pro
 * when output stream type is different from input
 
 ```mermaid
-flowchart LR
+graph LR
 a[input 0]
 b[input 1]
 c[input 2]
@@ -97,7 +97,7 @@ Steam copy is a mode selected by supplying the `copy` parameter to the -codec op
 It only demuxing and muxing, so it is very fast and there is no quality loss.
 
 ```mermaid
-flowchart LR
+graph LR
 1[input file]
 -->|demuxer| 2[encoded data packets]
 -->|muxer| 3[output file]
