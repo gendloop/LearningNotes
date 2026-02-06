@@ -125,7 +125,6 @@ graph LR
 
     `ffmpeg -i input.mp4 -dn output.mp4`
 
-
 ### Description
 
 The sub-sections that follow describe the various rules that are involved in stream selection
