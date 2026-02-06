@@ -14,6 +14,7 @@
     * [Dockerfile](docs/tools/docker/dockerfile.md)
     * [Practice](docs/tools/docker/practice.md)
   * [doxygen](docs/tools/doxygen/README.md)
+    * [Config](docs/tools/doxygen/config.md)
   * [ffmpeg](docs/tools/ffmpeg/README.md)
   * [git](docs/tools/git/README.md)
   * [gitbook](docs/tools/gitbook/README.md)
