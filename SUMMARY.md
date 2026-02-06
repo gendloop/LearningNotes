@@ -17,6 +17,8 @@
     * [Config](docs/tools/doxygen/config.md)
     * [Examples](docs/tools/doxygen/examples.md)
   * [ffmpeg](docs/tools/ffmpeg/README.md)
+    * [Guide](docs/tools/ffmpeg/guide.md)
+    * [Summary](docs/tools/ffmpeg/summary.md)
   * [git](docs/tools/git/README.md)
   * [gitbook](docs/tools/gitbook/README.md)
   * [google-test](docs/tools/google-test/README.md)
