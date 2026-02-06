@@ -174,9 +174,8 @@ input file 'C.mkv'
  stream 2: subtitles (image)
 ```
 
-> .avi, .mkv, .mov, .mp4: support video, audio
->
-> .wav: only support audio
+* .avi, .mkv, .mov, .mp4: support video, audio
+* .wav: only support audio
 
 #### Example: automatic stream selection
 
