@@ -34,11 +34,10 @@ Transcoding process
 
 ```mermaid
 graph
-A[input file]
--->|demuxer| B[encoded data packets]
--->|decoder| C[decoded frames]
--->|encoder| D[encoded data packets]
--->|muxer  | E[ouput file]
+A[input file] -->|demuxer| B[encoded data packets]
+A[input file] -->|decoder| C[decoded frames]
+A[input file] -->|encoder| D[encoded data packets]
+A[input file] -->|muxer  | E[output file]
 ```
 
 ### Filtering
@@ -51,19 +50,17 @@ Simple filtergraphs are those that have excatly one input and output, both of th
 
 ```mermaid
 graph LR
-A[decoded frames]
--->|simple filtergraph| B[filterd frames]
--->|encoder| C[encoded data packets]
+A[decoded frames] -->|simple filtergraph| B[filtered frames]
+A[decoded frames] -->|encoder| C[encoded data packets]
 ```
 
 A simple filtergraph for video can look for example like this
 
 ```mermaid
 graph LR
-A[input]
---> B[deinterlace]
---> C[scale]
---> D[output]
+A[input] --> B[deinterlace]
+A[input] --> C[scale]
+A[input] --> D[output]
 ```
 
 Some filters change frame properties but not frame contents. E.g.
@@ -83,11 +80,14 @@ graph LR
 a[input 0]
 b[input 1]
 c[input 2]
-a & b & c --> middle
-middle[complex filtergraph]
-middle --> d & e
 d[output 0]
 e[output 1]
+a --> middle
+b --> middle
+c --> middle
+middle[complex filtergraph]
+middle --> d
+middle --> e
 ```
 
 ### Steam copy
@@ -98,9 +98,8 @@ It only demuxing and muxing, so it is very fast and there is no quality loss.
 
 ```mermaid
 graph LR
-1[input file]
--->|demuxer| 2[encoded data packets]
--->|muxer| 3[output file]
+1[input file] -->|demuxer| 2[encoded data packets]
+1[input file] -->|muxer| 3[output file]
 ```
 
 ## Stream selection
