@@ -48,7 +48,8 @@
     * [Guide](docs/tools/zsh/guide.md)
 
 * [Languages](docs/languages/README.md)
-  * [c++](docs/languages/c++/README.md)
+  * [C++](docs/languages/c++/README.md)
+    * [Summary](docs/languages/c++/summary.md)
   * [cmake](docs/languages/cmake/README.md)
   * [frontend](docs/languages/frontend/README.md)
   * [latex](docs/languages/latex/README.md)
