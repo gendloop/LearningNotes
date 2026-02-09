@@ -36,6 +36,7 @@
   * [reveal-md](docs/tools/reveal-md/README.md)
     * [Guide](docs/tools/reveal-md/guide.md)
   * [staticrypt](docs/tools/staticrypt/README.md)
+    * [Guide](docs/tools/staticrypt/guide.md)
   * [vim](docs/tools/vim/README.md)
   * [vs](docs/tools/vs/README.md)
   * [vscode](docs/tools/vscode/README.md)

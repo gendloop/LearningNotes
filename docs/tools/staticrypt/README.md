@@ -1,0 +1,3 @@
+# staticrypt
+
+* [Guide](guide.md)
