@@ -42,8 +42,9 @@
     * [Summary](docs/tools/vim/summary.md)
   * [VS](docs/tools/vs/README.md)
     * [Troubleshooting](docs/tools/vs/troubleshooting.md)
-  * [vscode](docs/tools/vscode/README.md)
-  * [zsh](docs/tools/zsh/README.md)
+  * [VSCode](docs/tools/vscode/README.md)
+    * [Summary](docs/tools/vscode/summary.md)
+  * [Zsh](docs/tools/zsh/README.md)
 
 * [Languages](docs/languages/README.md)
   * [c++](docs/languages/c++/README.md)

@@ -19,7 +19,7 @@
   * [staticrypt](docs/tools/staticrypt/README.md)
   * [vim](docs/tools/vim/README.md)
   * [VS](docs/tools/vs/README.md)
-  * [vscode](docs/tools/vscode/README.md)
+  * [VSCode](docs/tools/vscode/README.md)
   * [zsh](docs/tools/zsh/README.md)
 
 * [Languages](docs/languages/README.md)
