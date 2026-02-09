@@ -18,7 +18,7 @@
   * [reveal-md](docs/tools/reveal-md/README.md)
   * [staticrypt](docs/tools/staticrypt/README.md)
   * [vim](docs/tools/vim/README.md)
-  * [vs](docs/tools/vs/README.md)
+  * [VS](docs/tools/vs/README.md)
   * [vscode](docs/tools/vscode/README.md)
   * [zsh](docs/tools/zsh/README.md)
 
