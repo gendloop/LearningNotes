@@ -34,6 +34,7 @@
   * [qpdf](docs/tools/qpdf/README.md)
     * [Guide](docs/tools/qpdf/guide.md)
   * [reveal-md](docs/tools/reveal-md/README.md)
+    * [Guide](docs/tools/reveal-md/guide.md)
   * [staticrypt](docs/tools/staticrypt/README.md)
   * [vim](docs/tools/vim/README.md)
   * [vs](docs/tools/vs/README.md)
