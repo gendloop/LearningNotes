@@ -38,6 +38,8 @@
   * [staticrypt](docs/tools/staticrypt/README.md)
     * [Guide](docs/tools/staticrypt/guide.md)
   * [vim](docs/tools/vim/README.md)
+    * [Guide](docs/tools/vim/guide.md)
+    * [Summary](docs/tools/vim/summary.md)
   * [vs](docs/tools/vs/README.md)
   * [vscode](docs/tools/vscode/README.md)
   * [zsh](docs/tools/zsh/README.md)
