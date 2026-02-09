@@ -11,7 +11,7 @@
   * [Git](docs/tools/git/README.md)
   * [GitBook](docs/tools/gitbook/README.md)
   * [GoogleTest](docs/tools/googletest/README.md)
-  * [mermaid](docs/tools/mermaid/README.md)
+  * [Mermaid](docs/tools/mermaid/README.md)
   * [nginx](docs/tools/nginx/README.md)
   * [qmake](docs/tools/qmake/README.md)
   * [qpdf](docs/tools/qpdf/README.md)

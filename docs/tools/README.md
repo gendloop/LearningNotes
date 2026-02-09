@@ -8,7 +8,7 @@
 * [Git](git/README.md)
 * [GitBook](gitbook/README.md)
 * [GoogleTest](googletest/README.md)
-* [mermaid](mermaid/README.md)
+* [Mermaid](mermaid/README.md)
 * [nginx](nginx/README.md)
 * [qmake](qmake/README.md)
 * [qpdf](qpdf/README.md)
