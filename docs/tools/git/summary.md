@@ -61,15 +61,12 @@ git diff <commit1> <commit2> -- <file>
 ### git clone
 
 ```bash
-# 克隆完成后, 不执行 HEAD 检出操作. 适用于需要获取历史记录但不需要在本地修改文件的情况
+# 克隆完成后, 不执行HEAD检出操作. 适用于需要获取历史记录但不需要在本地修改文件的情况
 git clone --no-checkout <repo_url>
-
 # 克隆裸仓库，不包含工作目录，适用于作为中央仓库或共享仓库使用
 git clone --bare <repo_url>
-
 # 克隆特定分支
 git clone -b <branch> <repo_url>
-
 # 克隆特定分支且只获取指定分支的信息
 git clone --single-branch -b <branch> <repo_url>
 ```
