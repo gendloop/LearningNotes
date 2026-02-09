@@ -8,22 +8,22 @@
 
     Tools => Options => Environment => International Settings => English
 
-    <img src="res/1716960809613-8ceaef54-616a-4b9f-8c73-7016ceeb45d6.png" alt="" style="zoom:30%;" />
+    <img src="res/1716960809613-8ceaef54-616a-4b9f-8c73-7016ceeb45d6.png" alt="" style="zoom: 50%;" />
 
 2. Restart VS
 3. Delete the keyboard mapping related to `Ctrl + [`
     * Enter Page Tools => Options => Environment => Keyboard
     * Delete `SolutionExplorer.OpenFilesFilter`
 
-      <img src="res/1716960946480-6461d7c4-6a9e-4465-a2e0-0bfa1fc0d27e.png" alt="" style="zoom:30%;" />
+      <img src="res/1716960946480-6461d7c4-6a9e-4465-a2e0-0bfa1fc0d27e.png" alt="" style="zoom: 50%;" />
 
     * Delete `SolutionExplorer.PendingChangesFilter`
 
-      <img src="res/1716961106945-0d7934f2-8e6f-4a3e-8312-6aff5c3fecc8.png" alt="" style="zoom:30%;" />
+      <img src="res/1716961106945-0d7934f2-8e6f-4a3e-8312-6aff5c3fecc8.png" alt="" style="zoom: 50%;" />
 
     * Delete `SolutionExplorer.SyncWithActiveDocument`
 
-      <img src="res/1737006875129-5853bd70-c15c-4a5f-a379-9c75f0eae764.png" alt="" style="zoom:30%;" />
+      <img src="res/1737006875129-5853bd70-c15c-4a5f-a379-9c75f0eae764.png" alt="" style="zoom: 50%;" />
 
 4. Set the language of VS to the default language, restart VS.
 
@@ -89,7 +89,7 @@ vim 插件管理器
 > 一般不需要安装任何插件, 个人建议可不使用插件功能
 
 | **插件** | **说明** | **安装方式(使用vim-plug)** |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [vim-airline](https://github.com/vim-airline/vim-airline) | 状态栏美化 | `Plug 'vim-airline/vim-airline'` |
 | [vim-sensible](https://github.com/tpope/vim-sensible) | 一些较通用的默认配置 | `Plug 'tpope/vim-sensible'` |
 | [godlygeek/tabular](https://github.com/godlygeek/tabular) | 代码对齐 | `Plug 'godlygeek/tabular'` |
