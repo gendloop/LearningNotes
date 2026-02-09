@@ -30,6 +30,7 @@
   * [nginx](docs/tools/nginx/README.md)
     * [Guide](docs/tools/nginx/guide.md)
   * [qmake](docs/tools/qmake/README.md)
+    * [Guide](docs/tools/qmake/guide.md)
   * [qpdf](docs/tools/qpdf/README.md)
   * [reveal-md](docs/tools/reveal-md/README.md)
   * [staticrypt](docs/tools/staticrypt/README.md)
