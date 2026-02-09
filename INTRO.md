@@ -9,7 +9,7 @@
   * [Doxygen](docs/tools/doxygen/README.md)
   * [FFmpeg](docs/tools/ffmpeg/README.md)
   * [Git](docs/tools/git/README.md)
-  * [gitbook](docs/tools/gitbook/README.md)
+  * [GitBook](docs/tools/gitbook/README.md)
   * [google-test](docs/tools/google-test/README.md)
   * [mermaid](docs/tools/mermaid/README.md)
   * [nginx](docs/tools/nginx/README.md)
