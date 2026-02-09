@@ -10,7 +10,7 @@
   * [FFmpeg](docs/tools/ffmpeg/README.md)
   * [Git](docs/tools/git/README.md)
   * [GitBook](docs/tools/gitbook/README.md)
-  * [google-test](docs/tools/google-test/README.md)
+  * [GoogleTest](docs/tools/googletest/README.md)
   * [mermaid](docs/tools/mermaid/README.md)
   * [nginx](docs/tools/nginx/README.md)
   * [qmake](docs/tools/qmake/README.md)

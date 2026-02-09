@@ -91,7 +91,7 @@ gitbook mobi
 
 ## 封面
 
-在根目录添加`conver.jpg`文件, `cover_small.jpg`可作为小版本封面存在
+在根目录添加`cover.jpg`文件, `cover_small.jpg`可作为小版本封面存在
 
 | **最佳尺寸** | 大 | 小 |
 | :---: | :---: | :---: |
