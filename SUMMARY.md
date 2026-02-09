@@ -45,6 +45,7 @@
   * [VSCode](docs/tools/vscode/README.md)
     * [Summary](docs/tools/vscode/summary.md)
   * [Zsh](docs/tools/zsh/README.md)
+    * [Guide](docs/tools/zsh/guide.md)
 
 * [Languages](docs/languages/README.md)
   * [c++](docs/languages/c++/README.md)

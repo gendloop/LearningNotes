@@ -20,7 +20,7 @@
   * [vim](docs/tools/vim/README.md)
   * [VS](docs/tools/vs/README.md)
   * [VSCode](docs/tools/vscode/README.md)
-  * [zsh](docs/tools/zsh/README.md)
+  * [Zsh](docs/tools/zsh/README.md)
 
 * [Languages](docs/languages/README.md)
   * [c++](docs/languages/c++/README.md)
