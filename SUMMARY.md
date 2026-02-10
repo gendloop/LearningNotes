@@ -61,7 +61,7 @@
     * [Func](docs/languages/cmake/func.md)
     * [Command](docs/languages/cmake/command.md)
     * [Chore](docs/languages/cmake/chore.md)
-  * [frontend](docs/languages/frontend/README.md)
+  * [Frontend](docs/languages/frontend/README.md)
   * [latex](docs/languages/latex/README.md)
   * [linux](docs/languages/linux/README.md)
   * [perl](docs/languages/perl/README.md)
