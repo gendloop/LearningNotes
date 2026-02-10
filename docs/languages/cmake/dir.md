@@ -40,6 +40,6 @@ searched by the following commands:
 * `find_program`
 * `find_file`
 
-## PACKAGENAME_DIR
+## packagename_DIR
 
 search for the specified package
