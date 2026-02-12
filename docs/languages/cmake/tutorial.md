@@ -10,7 +10,7 @@ This provides a step-by-step guide that covers common build system issues.
 
 #### 1.1 Basic
 
-1. **treeview**
+**treeview**
 
 ```markdown
 1.1/
@@ -19,19 +19,21 @@ This provides a step-by-step guide that covers common build system issues.
 └── CMakeLists.txt
 ```
 
-1. **CMakeLists.txt**
+**CMakeLists.txt**
 
 ```cmake
 cmake_minimum_required(VERSION 3.10)
+
 # set the <project name>
 project(Tutorials)
+
 # add the executable
 add_executable(Tutorial src/tutorials.cxx)
 ```
 
 #### 1.2 Add a Version Number and Configured Header File
 
-1. **treeview**
+**treeview**
 
 ```markdown
 1.2/
@@ -41,21 +43,29 @@ add_executable(Tutorial src/tutorials.cxx)
 └── TutorialConfig.h.in
 ```
 
-1. **CMakeLists.txt**
+**CMakeLists.txt**
 
 ```cmake
 cmake_minimum_required(VERSION 3.10)
+
+# set the <project name>
+# project(Tutorials)
+
+# set the <project name> and <version>
 project(Tutorials VERSION 1.0)
+
 configure_file(TutorialConfig.h.in TutorialConfig.h)
+
 add_executable(Tutorial src/tutorials.cxx)
+
 target_include_directories(Tutorial PUBLIC
-"${PROJECT_BINARY_DIR}"
+  "${PROJECT_BINARY_DIR}"
 )
 ```
 
 #### 1.3 Specify the C Standard
 
-1. **treeview**
+**treeview**
 
 ```markdown
 1.3/
@@ -65,17 +75,24 @@ target_include_directories(Tutorial PUBLIC
 └── TutorialConfig.h.in
 ```
 
-1. **CMakeLists**
+**CMakeLists**
 
 ```cmake
 cmake_minimum_required(VERSION 3.10)
+
+# set the <project name> and <version>
 project(Tutorials VERSION 1.0)
+
+# specify the C++ standard
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED, True)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
 configure_file(TutorialConfig.h.in TutorialConfig.h)
+
 add_executable(Tutorial src/tutorials.cxx)
+
 target_include_directories(Tutorial PUBLIC
-                            "${PROJECT_BINARY_DIR}"
+  "${PROJECT_BINARY_DIR}"
 )
 ```
 
@@ -109,18 +126,32 @@ add_library(MathFunctions mysqrt.cxx)
 ```cmake
 # cmake version
 cmake_minimum_required(VERSION 3.10)
+
+# project
 project(Step2Project VERSION 2.0)
+
+# c++ standard
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# config file
 configure_file(Config.h.in config.h)
+
+# 3rdParty
 add_subdirectory(3rdParty/MathFunctions)
+
+# target
 add_executable(Step2 src/main.cpp)
+
+# target link
 target_link_libraries(Step2 PUBLIC
-                    MathFunctions
+  MathFunctions
 )
+
+# target include
 target_include_directories(Step2 PUBLIC
-                        "${PROJECT_BINARY_DIR}"
-                        "${PROJECT_SOURCE_DIR}/3rdParty/MathFunctions"
+  "${PROJECT_BINARY_DIR}"
+  "${PROJECT_SOURCE_DIR}/3rdParty/MathFunctions"
 )
 ```
 
@@ -150,24 +181,41 @@ add_library(MathFunctions mysqrt.cxx)
 **CMakeLists.txt**
 
 ```cmake
+# cmake version
 cmake_minimum_required(VERSION 3.10)
+
+# project
 project(Step2Project VERSION 2.0)
+
+# c++ standard
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED, True)
+
+# define variables
 option(USE_MATH "Use my math functions" ON)
+
+# config file
 configure_file(Config.h.in config.h)
+
+# 3rdParty
 if(USE_MATH)
     add_subdirectory(3rdParty/MathFunctions)
     list(APPEND EXTRA_LIBS MathFunctions)
     list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/3rdParty/MathFunctions")
 endif()
+
+# target
 add_executable(Step2 src/main.cpp)
+
+# target link
 target_link_libraries(Step2 PUBLIC
-                    ${EXTRA_LIBS}
+  ${EXTRA_LIBS}
 )
+
+# target include
 target_include_directories(Step2 PUBLIC
-                        "${PROJECT_BINARY_DIR}"
-                        ${EXTRA_INCLUDES}
+  "${PROJECT_BINARY_DIR}"
+  ${EXTRA_INCLUDES}
 )
 ```
 
@@ -192,31 +240,48 @@ Step3/
 
 ```cmake
 add_library(MathFunctions
-            mysqrt.cxx
-            )
+  mysqrt.cxx
+)
 target_include_directories(MathFunctions
-                        INTERFACE
-                        ${CMAKE_CURRENT_SOURCE_DIR}
-                        )
+  INTERFACE
+  ${CMAKE_CURRENT_SOURCE_DIR}
+)
 ```
 
 **CMakeLists.txt**
 
 ```cmake
+# cmake version
 cmake_minimum_required(VERSION 3.10)
+
+# project
 project(Step2Project VERSION 2.0)
+
+# c++ standard
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED, True)
+
+# define variables
 option(USE_MATH "Use my math functions" ON)
+
+# config file
 configure_file(Config.h.in config.h)
+
+# 3rdParty
 if(USE_MATH)
     add_subdirectory(3rdParty/MathFunctions)
     list(APPEND EXTRA_LIBS MathFunctions)
 endif()
+
+# target
 add_executable(Step2 src/main.cpp)
+
+# target link
 target_link_libraries(Step2 PUBLIC
                     ${EXTRA_LIBS}
 )
+
+# target include
 target_include_directories(Step2 PUBLIC
                         "${PROJECT_BINARY_DIR}"
 )
@@ -245,12 +310,14 @@ target_include_directories(Step2 PUBLIC
 
 ```cmake
 add_library(MathFunctions
-            mysqrt.cxx
-            )
+  mysqrt.cxx
+)
 target_include_directories(MathFunctions
-                        INTERFACE
-                        ${CMAKE_CURRENT_SOURCE_DIR}
-                        )
+  INTERFACE
+  ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+# install
 install(TARGETS MathFunctions DESTINATION lib)
 install(FILES MathFunctions.h DESTINATION include/MathFunctions)
 ```
@@ -258,27 +325,46 @@ install(FILES MathFunctions.h DESTINATION include/MathFunctions)
 **CMakeLists.txt**
 
 ```cmake
+# cmake version
 cmake_minimum_required(VERSION 3.10)
+
+# project
 project(Step2Project VERSION 2.0)
+
+# c++ standard
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED, True)
+
+# define variables
 option(USE_MATH "Use my math functions" ON)
+
+# config file
 configure_file(Config.h.in config.h)
+
+# 3rdParty
 if(USE_MATH)
-    add_subdirectory(3rdParty/MathFunctions)
-    list(APPEND EXTRA_LIBS MathFunctions)
+  add_subdirectory(3rdParty/MathFunctions)
+  list(APPEND EXTRA_LIBS MathFunctions)
 endif()
+
+# target
 add_executable(Step2 src/main.cpp)
+
+# target link
 target_link_libraries(Step2 PUBLIC
-                    ${EXTRA_LIBS}
+  ${EXTRA_LIBS}
 )
+
+# target include
 target_include_directories(Step2 PUBLIC
-                        "${PROJECT_BINARY_DIR}"
+  "${PROJECT_BINARY_DIR}"
 )
+
+# install
 install(TARGETS Step2 DESTINATION bin)
 install(FILES "${PROJECT_BINARY_DIR}/config.h"
-    DESTINATION include
-    )
+  DESTINATION include
+)
 ```
 
 **Commands**

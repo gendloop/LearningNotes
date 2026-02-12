@@ -116,7 +116,9 @@ endif()
 
 ## list
 
+```cmake
 list(APPEND EXTRA_LIBS MathFunctions)
+```
 
 ## install
 
@@ -200,17 +202,19 @@ target_compile_definitions(MathFunctions
 )
 
 target_compile_definitions(
-    PRIVATE "XI_DLL" "_CRT_SECURE_NO_WARNNIGS"
+  PRIVATE "XI_DLL" "_CRT_SECURE_NO_WARNINGS"
 )
 ```
 
 ## add_custom_command
 
+```cmake
 add_custom_command(
-    OUTPUT ${PROJECT_SOURCE_DIR}/src/a_table.h
-    COMMAND MakeATable ${PROJECT_SOURCE_DIR}/src/a_table.h
-    DEPENDS MakeATable
+  OUTPUT ${PROJECT_SOURCE_DIR}/src/a_table.h
+  COMMAND MakeATable ${PROJECT_SOURCE_DIR}/src/a_table.h
+  DEPENDS MakeATable
 )
+```
 
 ## enable_testing
 

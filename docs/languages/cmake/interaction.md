@@ -3,9 +3,9 @@
 ## About
 
 This will detail
-  1. the steps needed to run the cmake or cmake-gui executable
-  2. how to choose a generator
-  3. how to complete the build
+1. the steps needed to run the cmake or cmake-gui executable
+2. how to choose a generator
+3. how to complete the build
 
 ## Setting Build Variables
 
