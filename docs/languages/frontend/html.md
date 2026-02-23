@@ -1,6 +1,6 @@
 # HTML
 
-HTML(HyperText Markup Language)超文本标记语言, 用于创建网页
+HTML (HyperText Markup Language) 超文本标记语言, 用于创建网页
 
 ## 实例
 
@@ -23,7 +23,7 @@ HTML(HyperText Markup Language)超文本标记语言, 用于创建网页
 </html>
 ```
 
-更多实例: [https://www.runoob.com/html/html-examples.html](https://www.runoob.com/html/html-examples.html)
+更多实例查看<https://www.runoob.com/html/html-examples.html>
 
 ## 标题
 
@@ -49,7 +49,7 @@ HTML(HyperText Markup Language)超文本标记语言, 用于创建网页
 
 ## 链接
 
-> href(hypertext reference)
+> href (hypertext reference)
 
 ```html
 <body>
@@ -270,6 +270,7 @@ HTML(HyperText Markup Language)超文本标记语言, 用于创建网页
     <li>Banana</li>
   </ol>
 </body>
+
 ```
 
 ## 分区
@@ -403,6 +404,7 @@ HTML(HyperText Markup Language)超文本标记语言, 用于创建网页
     </tbody>
   </table>
 </body>
+
 ```
 
 ## 脚本
