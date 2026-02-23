@@ -134,26 +134,26 @@ HTML (HyperText Markup Language) 超文本标记语言, 用于创建网页
 
 | **属性名** | **适用元素** | **说明** |
 | --- | --- | --- |
-| `id` | 所有 | 为元素指定唯一标识符 |
-| `class` | 所有 | 为元素指定一个或多个类名, 用于 CSS 或 JavaScript 选择 |
-| `style` | 所有 | 直接在元素上应用 CSS 样式 |
-| `title` | 所有 | 为元素提供提示信息, 在鼠标悬停时显示 |
-| `date-*` | 所有 | 用于存储自定义数据, 通常通过 JavaScript 访问 |
-| `href` | <a> <link> | 指定链接的目标 URL |
-| `src` | <img> <script> <iframe> | 指定外部资源的 URL |
-| `alt` | <img> | 为图像提供替代文本, 当图像无法显示时 |
-| `type` | <input> <button> | 指定输入控件的类型 (如 text, password, checkbox 等) |
-| `value` | <input> <button> <option> | 指定元素的初始值 |
-| `disabled` | 表单元素 | 禁用元素, 使其不可交互 |
-| `checked` | <input type="checkbox">   <input type="radio"> | 指定复选框或单选按钮是否被选中 |
-| `placeholder` | <input> <textarea> | 在输入框中显示提示文本 |
-| `target` | <a> <form> | 指定链接或表单提交的目标窗口或框架 (如 _blank) |
-| `readonly` | 表单元素 | 使输入框只读 |
-| `required` | 表单元素 | 指定输入字段为必填项 |
-| `autoplay` | <audio> <video> | 自动播放媒体 |
-| `onclick` | 所有 | 当用户点击元素时触发 JavaScript 事件 |
-| `onmouseover` | 所有 | 当用户将鼠标悬停在元素上时触发 JavaScript 事件 |
-| `onchange` | 表单元素 | 当元素的值发生变化时触发 JavaScript 事件 |
+| id | 所有 | 为元素指定唯一标识符 |
+| class | 所有 | 为元素指定一个或多个类名, 用于 CSS 或 JavaScript 选择 |
+| style | 所有 | 直接在元素上应用 CSS 样式 |
+| title | 所有 | 为元素提供提示信息, 在鼠标悬停时显示 |
+| date*` | 所有 | 用于存储自定义数据, 通常通过 JavaScript 访问 |
+| href | `<a> <link>` | 指定链接的目标 URL |
+| src | `<img> <script> <iframe>` | 指定外部资源的 URL |
+| alt | `<img>` | 为图像提供替代文本, 当图像无法显示时 |
+| type | `<input> <button>` | 指定输入控件的类型 (如 text, password, checkbox 等) |
+| value | `<input> <button> <option>` | 指定元素的初始值 |
+| disabled | 表单元素 | 禁用元素, 使其不可交互 |
+| checked | `<input type="checkbox"> <input type="radio">` | 指定复选框或单选按钮是否被选中 |
+| placeholder | `<input> <textarea>` | 在输入框中显示提示文本 |
+| target | `<a> <form>` | 指定链接或表单提交的目标窗口或框架 (如 _blank) |
+| readonly | 表单元素 | 使输入框只读 |
+| required | 表单元素 | 指定输入字段为必填项 |
+| autoplay | `<audio> <video>` | 自动播放媒体 |
+| onclick | 所有 | 当用户点击元素时触发 JavaScript 事件 |
+| onmouseover | 所有 | 当用户将鼠标悬停在元素上时触发 JavaScript 事件 |
+| onchange | 表单元素 | 当元素的值发生变化时触发 JavaScript 事件 |
 
 ```html
 <body>
