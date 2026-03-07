@@ -64,6 +64,7 @@
   * [Frontend](docs/languages/frontend/README.md)
     * [HTML](docs/languages/frontend/html.md)
     * [CSS](docs/languages/frontend/css.md)
+    * [JavaScript](docs/languages/frontend/javascript.md)
   * [latex](docs/languages/latex/README.md)
   * [linux](docs/languages/linux/README.md)
   * [perl](docs/languages/perl/README.md)
