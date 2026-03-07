@@ -9,30 +9,43 @@
 ```bash
 # 暂存所有更改
 git stash
+
 # 暂存特定文件
 git stash push <path>
+
 # 暂存特定文件以外的文件
 git stash push -- ":(exclude)<path>"
+
 # 应用上一暂存
 git stash apply
+
 # 应用并删除上一暂存
 git stash pop
+
 # 删除上一暂存
 git stash drop
+
 # 删除指定暂存
 git stash drop stash@{<index>}
+
 # 应用指定暂存
 git stash apply stash@{<index>}
+
 # 列出所有暂存
 git stash list
+
 # 显示上一暂存修改的文件
 git stash show
+
 # 显示上一暂存修改的文件内容
 git stash show -p
+
 # 清空所有暂存
 git stash clear
+
 # 查看特定 stash 内容
 git stash show -p stash@{0}
+
 # 应用特定文件
 git checkout stash@{0} -- <file>
 ```
@@ -40,21 +53,28 @@ git checkout stash@{0} -- <file>
 ### git diff
 
 ```bash
-# 1. 比较工作目录中文件和暂存区中文件的差异
+# 比较工作目录中文件和暂存区中文件的差异
 git diff
-# 2. 比较暂存区中文件和最新提交(HEAD)中文件的差异
+
+# 比较暂存区中文件和最新提交(HEAD)中文件的差异
 git diff --cached
-# 3. 比较工作目录中文件和最新提交(HEAD)中文件的差异
+
+# 比较工作目录中文件和最新提交(HEAD)中文件的差异
 git diff HEAD
-# 4. 比较指定文件的差异
+
+# 比较指定文件的差异
 git diff <file>
-# 5. 比较两次提交间的差异
+
+# 比较两次提交间的差异
 git diff <commit1> <commit2>
-# 6. 比较当前分支与另一个分支的差异
+
+# 比较当前分支与另一个分支的差异
 git diff <branch1>..<branch2>
-# 7. 显示具体的文件差异, 包括新增, 修改, 删除
+
+# 显示具体的文件差异, 包括新增, 修改, 删除
 git diff --stat
-# 8. 比较两次提交间特定文件的差异
+
+# 比较两次提交间特定文件的差异
 git diff <commit1> <commit2> -- <file>
 ```
 
@@ -63,10 +83,13 @@ git diff <commit1> <commit2> -- <file>
 ```bash
 # 克隆完成后, 不执行HEAD检出操作. 适用于需要获取历史记录但不需要在本地修改文件的情况
 git clone --no-checkout <repo_url>
+
 # 克隆裸仓库，不包含工作目录，适用于作为中央仓库或共享仓库使用
 git clone --bare <repo_url>
+
 # 克隆特定分支
 git clone -b <branch> <repo_url>
+
 # 克隆特定分支且只获取指定分支的信息
 git clone --single-branch -b <branch> <repo_url>
 ```
@@ -93,9 +116,11 @@ git archive --format=tar HEAD | tar -x -C .
 ```bash
 # 按日期降序
 git tag --sort=-creatordate
+
 # 最近的5个
 git tag --sort=-creatordate | head -n 5
 git tag --sort=creatordate | tail -n 5
+
 # 匹配的tag降序
 git tag --sort=-creatordate | grep "v0.3.*"
 ```
@@ -127,20 +152,25 @@ git log -3 --format="%s"
 ```bash
 # 1. 检查是否已生成 ssh 密钥
 ls ~/.ssh/id_ed25519 ~/.ssh/id_rsa
+
 # 2. 若没有, 生成新的 ssh 密钥
 ssh-keygen -t rsa -b 4096 -C "gendloop@163.com"
 # ssh-keygen -t ed25519 -C "gendloop@163.com"
+
 # 3. 添加到 ssh-agent
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 # ssh-add ~/.ssh/id_ed25519
+
 # 4. 将公钥添加到 github 账户
 cat ~/.ssh/id_rsa.pub
 # cat ~/.ssh/id_ed25519.pub
 # 登录 github => Settings => SSH and GPG keys => New SSH key => 粘贴
+
 # 5. 测试 ssh 连接
 ssh -T git@github.com
 # Hi gendloop! You've successfully authenticated, but GitHub does not provide shell access.
+
 # 6. 克隆仓库
 git clone git@github.com:gendloop/Blog.git blog
 ```
@@ -150,13 +180,17 @@ git clone git@github.com:gendloop/Blog.git blog
 ```bash
 # 启动 ssh-agent
 eval "$(ssh-agent -s)"
+
 # 列出密钥
 ssh-add -l
+
 # 添加密钥
 ssh-add ~/.ssh/id_rsa
+
 # 删除指定密钥
 ssh-add -d ~/.ssh/id_rsa # 按路径
 ssh-add -d SHA256:xxx/xxx # 按指纹
+
 # 删除所有密钥
 ssh-add -D
 ```
@@ -190,12 +224,15 @@ git fetch origin <remote_branch>:<local_branch>
 ```bash
 # Create a new empty branch
 git checkout --orphan new_branch
+
 # Add all files
 git add .
 git commit -m "chore: Initial commit"
+
 # Force update the primary branch
 git branch -D main
 git branch -m main
+
 # Force push to the remote repository
 git push origin main --force
 ```
@@ -216,12 +253,15 @@ git rev-parse HEAD
 
 ```bash
 git checkout <local_branch>
-git checkout -b <local_banch>
-git checkout <local_branch> <source_branch>
-git checkout -b <local_branch> <source_branch>
 git switch <local_branch>
+
+git checkout -b <local_banch>
 git switch -c <local_branch>
+
+git checkout <local_branch> <source_branch>
 git switch <local_branch> <source_branch>
+
+git checkout -b <local_branch> <source_branch>
 git switch -c <local_branch> <source_branch>
 ```
 
@@ -268,8 +308,9 @@ git count-objects -vH
 
 ```bash
 git restore .
-git restore file1 file2
 git checkout -- .
+
+git restore file1 file2
 git checkout -- file1 file2
 ```
 
@@ -282,9 +323,14 @@ git reset HEAD^1
 ### 删除未跟踪的文件和目录
 
 ```bash
-git clean -f    # files
-git clean -fd   # files and folders
-git clean -i    # interaction
+# files
+git clean -f
+
+# files and folders
+git clean -fd
+
+# interaction
+git clean -i
 ```
 
 ### 重新应用.gitignore
@@ -304,14 +350,18 @@ git rev-list --objects --all | while read -r hash name; do
         echo "$size $hash $name"
     fi
 done | sort -nr
+
 # 安装 git filter-repo
 pip3 install git-filter-repo
+
 # 删除大文件
 git filter-repo --path "tools/1.zip" --invert-paths --force
 git filter-repo --path "tools/2.zip" --invert-paths --force
+
 # 检查文件是否还在历史中
 git log --all --full-history -- "tools/1.zip"
 git log --all --full-history -- "tools/2.zip"
+
 # 查看仓库大小
 git count-objects -vH
 du -sh .git
