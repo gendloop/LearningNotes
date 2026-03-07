@@ -1,32 +1,35 @@
+# CSS
+
 CSS (Cascading Style Sheets) 层叠样式表, 用于渲染 HTML 元素标签的样式.
 
 ## 注释
+
 ```css
-/* 通用样式 		base.css 				*/
-/* 布局样式 		layout.css 			*/
-/* 组件样式 		components.css 	*/
-/* 页面特定样式 	pages.css 			*/
+/* 通用样式   base.css     */
+/* 布局样式   layout.css    */
+/* 组件样式   components.css  */
+/* 页面特定样式  pages.css    */
 ```
 
 ## 选择器
+
 ```css
 p {
-    color: red;
+  color: red;
 }
 
 /* id 选择器, "#" 前缀, 用于唯一元素 */
 #blue-text {
-    color: blue;
+  color: blue;
 }
 
 /* class 选择器, "." 前缀, 用于具有相同属性的一类元素 */
 .text-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 .text-italic {
-    font-style: italic;
+  font-style: italic;
 }
-
 ```
 
 ```html
@@ -44,21 +47,19 @@ p {
 ```
 
 ## 插入样式表
-插入样式表方法有三种:
 
-+ 外部样式表(External style sheet)
-+ 内部样式表(Internal style sheet)
-+ 内联样式(Inline style)
+插入样式表方法有三种:
+- 外部样式表(External style sheet)
+- 内部样式表(Internal style sheet)
+- 内联样式(Inline style)
 
 ```css
 h1 {
     color: red;
 }
-
 h2 {
     color: green;
 }
-
 h3 {
     color: yellow;
 }
@@ -89,6 +90,7 @@ h3 {
 ```
 
 ## 背景
+
 ```css
 body {
   background-color: antiquewhite;
@@ -100,6 +102,7 @@ body {
 ```
 
 ## 文本
+
 ```css
 h1 {
   text-decoration: overline;
@@ -154,30 +157,31 @@ p.capitalize {
 ```
 
 ## 链接
+
 ```css
 /* 未访问链接 */
 a:link {
-  color: #000000;
+  color: #000000; /* 黑色 */
 }
 
 /* 已访问链接 */
 a:visited {
-  color: #00ff00;
+  color: #00ff00; /* 绿色 */
 }
 
 /* 鼠标移动到链接上 */
 a:hover {
-  color: #ff00ff;
+  color: #ff00ff; /* 紫色 */
 }
 
 /* 鼠标点击时 */
 a:active {
-  color: #0000ff;
+  color: #0000ff; /* 蓝色 */
 }
-
 ```
 
 ## 列表
+
 ```css
 ul.circle {
   list-style-type: circle;
@@ -198,6 +202,7 @@ ol.lower-alpha {
 ```
 
 ## 分组和嵌套
+
 ```html
 <body>
     <h1>分组与嵌套示例</h1>
@@ -229,10 +234,10 @@ p {
 p.marked {
   text-decoration: underline;
 }
-
 ```
 
 ## 导航栏
+
 ```html
 <body>
   <h1>导航栏</h1>
@@ -258,17 +263,7 @@ p.marked {
 </body>
 ```
 
-
-
 ## References
+
 1. [https://www.runoob.com/css/css-tutorial.html](https://www.runoob.com/css/css-tutorial.html)
 2. [https://www.jyshare.com/examples/](https://www.jyshare.com/examples/)
-
-
-
-
-
-
-
-
-
