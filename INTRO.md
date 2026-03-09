@@ -27,7 +27,7 @@
   * [CMake](docs/languages/cmake/README.md)
   * [Frontend](docs/languages/frontend/README.md)
   * [LaTex](docs/languages/latex/README.md)
-  * [linux](docs/languages/linux/README.md)
+  * [Linux](docs/languages/linux/README.md)
   * [perl](docs/languages/perl/README.md)
   * [wubi](docs/languages/wubi/README.md)
 

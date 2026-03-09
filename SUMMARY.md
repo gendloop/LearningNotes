@@ -68,7 +68,7 @@
   * [LaTex](docs/languages/latex/README.md)
     * [Guide](docs/languages/latex/guide.md)
     * [Packages](docs/languages/latex/packages.md)
-  * [linux](docs/languages/linux/README.md)
+  * [Linux](docs/languages/linux/README.md)
   * [perl](docs/languages/perl/README.md)
   * [wubi](docs/languages/wubi/README.md)
 
