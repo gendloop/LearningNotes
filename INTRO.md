@@ -28,8 +28,8 @@
   * [Frontend](docs/languages/frontend/README.md)
   * [LaTex](docs/languages/latex/README.md)
   * [Linux](docs/languages/linux/README.md)
-  * [perl](docs/languages/perl/README.md)
-  * [wubi](docs/languages/wubi/README.md)
+  * [Perl](docs/languages/perl/README.md)
+  * [WuBi](docs/languages/wubi/README.md)
 
 * [Summary](docs/summary/README.md)
   * [design-patterns](docs/summary/design-patterns/README.md)

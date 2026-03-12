@@ -73,8 +73,10 @@
     * [Guide](docs/languages/linux/guide.md)
     * [Script](docs/languages/linux/script.md)
     * [Summary](docs/languages/linux/summary.md)
-  * [perl](docs/languages/perl/README.md)
-  * [wubi](docs/languages/wubi/README.md)
+  * [Perl](docs/languages/perl/README.md)
+    * [Guide](docs/languages/perl/guide.md)
+    * [Summary](docs/languages/perl/summary.md)
+  * [WuBi](docs/languages/wubi/README.md)
 
 * [Summary](docs/summary/README.md)
   * [design-patterns](docs/summary/design-patterns/README.md)
