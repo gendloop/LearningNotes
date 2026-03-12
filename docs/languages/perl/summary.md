@@ -1,15 +1,20 @@
+# Summary
+
 ## 习惯
-1. 在`.pl`文件开头加上  
-`use strict;`  
-`use warnings;`
+
+* 在`.pl`文件开头加上
+  * `use strict;`
+  * `use warnings;`
 
 ## 用于变量的关键字
-+ `my` 	局部变量
-+ `local` 	局部全局变量
-+ `our`	全局变量
-+ `state`	静态变量, 需要加上 `use feature 'state';`
 
-### `my` vs `local`
+* `my` 局部变量
+* `local` 局部全局变量
+* `our` 全局变量
+* `state` 静态变量, 需要加上`use feature 'state';`
+
+### `my` VS `local`
+
 ```perl
 # `my` vs `local`
 
@@ -39,6 +44,7 @@ printA();
 ```
 
 ## sort
+
 ```perl
 use strict;
 use warnings;
@@ -68,7 +74,3 @@ printL(@a);
 printL(@b);
 printL(@c);
 ```
-
-
-
-## References
