@@ -73,8 +73,6 @@
     * [Guide](docs/languages/linux/guide.md)
     * [Script](docs/languages/linux/script.md)
     * [Summary](docs/languages/linux/summary.md)
-    * [Practice](docs/languages/linux/practice.md)
-    * [Chore](docs/languages/linux/chore.md)
   * [perl](docs/languages/perl/README.md)
   * [wubi](docs/languages/wubi/README.md)
 

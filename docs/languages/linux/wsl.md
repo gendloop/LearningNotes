@@ -26,10 +26,11 @@
 ### 阿里云镜像源
 
 ```bash
-deb https://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 ```
 
 ### 清华大学镜像源
@@ -48,6 +49,33 @@ deb https://mirrors.ustc.edu.cn/ubuntu/ jammy main restricted universe multivers
 deb https://mirrors.ustc.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
 deb https://mirrors.ustc.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
 deb https://mirrors.ustc.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+```
+
+### 华为源地址
+
+```bash
+deb <https://repo.huaweicloud.com/ubuntu/> focal main restricted
+deb <https://repo.huaweicloud.com/ubuntu/> focal-updates main restricted
+deb <https://repo.huaweicloud.com/ubuntu/> focal universe
+deb <https://repo.huaweicloud.com/ubuntu/> focal-updates universe
+deb <https://repo.huaweicloud.com/ubuntu/> focal-backports main restricted universe
+deb <https://repo.huaweicloud.com/ubuntu/> focal-security main restricted
+deb <https://repo.huaweicloud.com/ubuntu/> focal-security universe
+```
+
+### 163源地址
+
+```bash
+deb <http://mirrors.163.com/ubuntu/> bionic main restricted universe multiverse
+deb <http://mirrors.163.com/ubuntu/> bionic-security main restricted universe multiverse
+deb <http://mirrors.163.com/ubuntu/> bionic-updates main restricted universe multiverse
+deb <http://mirrors.163.com/ubuntu/> bionic-proposed main restricted universe multiverse
+deb <http://mirrors.163.com/ubuntu/> bionic-backports main restricted universe multiverse
+deb-src <http://mirrors.163.com/ubuntu/> bionic main restricted universe multiverse
+deb-src <http://mirrors.163.com/ubuntu/> bionic-security main restricted universe multiverse
+deb-src <http://mirrors.163.com/ubuntu/> bionic-updates main restricted universe multiverse
+deb-src <http://mirrors.163.com/ubuntu/> bionic-proposed main restricted universe multiverse
+deb-src <http://mirrors.163.com/ubuntu/> bionic-backports main restricted universe multiverse
 ```
 
 ## 重装
