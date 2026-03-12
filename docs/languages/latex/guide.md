@@ -128,8 +128,6 @@ Underline: \underline{Underline}
 
 ```latex
 \usepackage{graphicx}
-\graphicspath{{figures/}}
-
 \usepackage{subcaption}
 ```
 

@@ -1284,23 +1284,20 @@ print("\n");
 ## 引用
 
 * 引用
-    * 在变量前加上一个右斜杠`\`
-    * `my $scalar_ref = \my $foo;`  # 标量
-    * `my $array_ref = \my @array;` # 列表
-    * `my $hash_ref = \my %hash;`   # 哈希
-    * `my $func_ref = \&func;`      # 函数
-    * `my $global_ref = \*global;`  # GLOB句柄
-* 解引用
-    * 已知类型 `$$VAR` `@$ARRAY` `%$HASH`
-    * 不知类型 `@{VAR}`
+  * 在变量前加上一个右斜杠`\`
+  * `my $scalar_ref = \my $foo;`  # 标量
+  * `my $array_ref = \my @array;` # 列表
+  * `my $hash_ref = \my %hash;`   # 哈希
+  * `my $func_ref = \&func;`      # 函数
+  * `my $global_ref = \*global;`  # GLOB句柄
 * 判断类型
-    * `ref VAR` 存在返回以下值, 不存在返回false
-        * `SCALAR`
-        * `ARRAY`
-        * `HASH`
-        * `CODE`
-        * `GLOB`
-        * `REF`
+  * `ref VAR` 存在返回以下值, 不存在返回false
+      * `SCALAR`
+      * `ARRAY`
+      * `HASH`
+      * `CODE`
+      * `GLOB`
+      * `REF`
 
 ```perl
 # 引用
