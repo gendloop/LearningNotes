@@ -1,9 +1,9 @@
 # Languages
 
-* [c++](c++/README.md)
-* [cmake](cmake/README.md)
-* [frontend](frontend/README.md)
-* [latex](latex/README.md)
-* [linux](linux/README.md)
-* [perl](perl/README.md)
-* [wubi](wubi/README.md)
+* [C++](c++/README.md)
+* [CMake](cmake/README.md)
+* [Frontend](frontend/README.md)
+* [LaTex](latex/README.md)
+* [Linux](linux/README.md)
+* [Perl](perl/README.md)
+* [WuBi](wubi/README.md)
