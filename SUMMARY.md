@@ -77,6 +77,8 @@
     * [Guide](docs/languages/perl/guide.md)
     * [Summary](docs/languages/perl/summary.md)
   * [WuBi](docs/languages/wubi/README.md)
+    * [Guide](docs/languages/wubi/guide.md)
+    * [Forgettable](docs/languages/wubi/forgettable.md)
 
 * [Summary](docs/summary/README.md)
   * [design-patterns](docs/summary/design-patterns/README.md)
