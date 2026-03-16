@@ -84,6 +84,11 @@
 尖汪浊沁光少涨籽
 ```
 
+## 原则
+
+* 单字输入
+* 纯五笔
+
 ## 基础
 
 * 笔画：横竖撇捺折
@@ -177,7 +182,7 @@
 
 ### Z
 
-<font style="color:rgb(0, 0, 0);">"万能键": 依据已输入字根找出可能的字</font>
+"万能键": 依据已输入字根找出可能的字
 
 ## 一级简码
 
@@ -189,36 +194,34 @@
 4. 地 `fbn`f
 5. 一 `ggll`g
 
-<details class="lake-collapse"><summary id="u719e48d5"><span class="ne-text">工要地工要地工在地工在一工在一要在一要在一要地一要地工要地工在地<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">要在一要在一要地一要地工要地工在地工在地工在一工在一要在一要地一<br /></span><span class="ne-text">要地工要</span></summary><div class="ne-quote"><p id="ub2764a91" class="ne-p"><span class="ne-text">22-02-19</span></p></div><p id="u22ff7182" class="ne-p"><span class="ne-text">工要在地一<br /></span><span class="ne-text">工要地工要地工在地工在一工在一要在一要在一要地一要地工要地工在地</span></p><div class="ne-quote"><p id="u09f688fa" class="ne-p"><span class="ne-text">22-02-14</span></p></div><p id="u3f9f5d1b" class="ne-p"><span class="ne-text">工要地工要地工在地工在一工在一要在一要在一要地一要地工要地工在地<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一</span></p><div class="ne-quote"><p id="ud8bdf320" class="ne-p"><span class="ne-text">22-02-13</span></p></div><p id="u1e4817b4" class="ne-p"><span class="ne-text">工要地工要地工在地工在一工在一要在一要在地一要地工要地工在地<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工肆地工要地工在地在一工在一<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">要在一要在一要地一要地工要地工在地工在地工在一工在一要在一要地一<br /></span><span class="ne-text">要地在要</span></p><div class="ne-quote"><p id="u4366714c" class="ne-p"><span class="ne-text">22-02-12</span></p></div><p id="ub82a5658" class="ne-p"><span class="ne-text">工要地工要地工在地工在一工在一要在一要在一要地一要地工要地工在地<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">要在一要在一要地一要地工要地工在地工地工在一工在一要在一要地一<br /></span><span class="ne-text">要地工要</span></p><div class="ne-quote"><p id="ue8ff65bf" class="ne-p"><span class="ne-text">22-02-08</span></p></div><p id="uba906e39" class="ne-p"><span class="ne-text">工要地工要地工在地工在一工在一要在一要在一要地一要地工要地工在地<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">要在一要在一要地一要地工要地工在地工在地工在一工在一要在一要地一<br /></span><span class="ne-text">要地工要</span></p><p id="u19abfbea" class="ne-p"><span class="ne-text">工要地工要地工在地工在一工在一要在一要在一要地一要地工要地工在地<br /></span><span class="ne-text">工在 一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">工在一工在一工在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">要在一要在一要在一要在一要地一要地工要地工要地工在地工在一工在一<br /></span><span class="ne-text">要在一要在一要地一要地工要地工在地工在地在一工在一要在一要地一<br /></span><span class="ne-text">要地工要</span></p></details>
 ### 一级简码二区
+
 1. 上 `hhgg`h
 2. 是 `jghu`j
-3. 中 `khk `k
+3. 中 `khk`k
 4. 国 `lgyi`l
 5. 同 `mgkd`m
 
-<details class="lake-collapse"><summary id="ud5971756"><span class="ne-text">是同国是同中是同中上同中上国中上国中上国是上国是同国是同中是同中<br /></span><span class="ne-text">是同中上同中上国中上国是上国是同国是同国是同中是同中上同中上国中<br /></span><span class="ne-text">上国中上国是上国是同国是同中是同中是同中上同中上国中上国是上国是<br /></span><span class="ne-text">上国中上国是上国是同国是同中是同中是同中上同中上国中上国是上国是<br /></span><span class="ne-text">上国是同</span></summary><div class="ne-quote"><p id="u6136d225" class="ne-p"><span class="ne-text">22-02-19</span></p></div><p id="u5c717663" class="ne-p"><span class="ne-text">上是中国同<br /></span><span class="ne-text">是同国是同中是国中上同中上国中上国中上国是上国是同国是同中是同中<br /></span><span class="ne-text">上上国中上国上国是同国是同中是同中是同中上同中上国中上国中上国是</span></p><div class="ne-quote"><p id="u0a799ccf" class="ne-p"><span class="ne-text">22-02-14</span></p></div><p id="u1e282c11" class="ne-p"><span class="ne-text">是同国是同中是同中上同中上国中上国中上国是上国是同国是同中是同中<br /></span><span class="ne-text">上国中上国是上国是同国是同中是同中是同中上同中上国中上国是上国是</span></p><div class="ne-quote"><p id="u79a59a0f" class="ne-p"><span class="ne-text">22-02-13</span></p></div><p id="u2c18838a" class="ne-p"><span class="ne-text">是同国是同中上同中上国中中国中上国中上国是上国是同国是同中是同中<br /></span><span class="ne-text">是同中上同中上国中上国是上国是同国是同国是同中是同中上同中上国中<br /></span><span class="ne-text">上国中上国是上国是同国是同中是同中是同中上同中上国中上国是上国是<br /></span><span class="ne-text">上国中上国是上国是同国是同中是同中是同中上同中上国中上国是上国是<br /></span><span class="ne-text">上国是同</span></p></details>
 ### 一级简码三区
-1. 和 `tkg `t
+
+1. 和 `tkg`t
 2. 的 `rqyy`r
-3. 有 `def `e
+3. 有 `def`e
 4. 人 `wwww`w
 5. 我 `trnt`q
 
-<details class="lake-collapse"><summary id="u48ad9e99"><span class="ne-text">人的我有的我有和我有和人有和人有和人的和人的我人的我有的我有的我<br /></span><span class="ne-text">有和我有和人有和人的和人的和人的我人的我有的我有和我有和我有和人<br /></span><span class="ne-text">有和人的和人的我人的我有的我有的我有和我有和人有和人的和人的和人<br /></span><span class="ne-text">人的我有的我有和我有和人有和人有和人的和人的我人的我有的我有的我<br /></span><span class="ne-text">的我人的</span></summary><div class="ne-quote"><p id="uda273a00" class="ne-p"><span class="ne-text">22-02-19</span></p></div><p id="u611317fc" class="ne-p"><span class="ne-text">人的我有的我有和我有和人有和人有和人的和人的我人的我有的我有的我<br /></span><span class="ne-text">有和我有和人有和人的和人的和人的我人的我有的我有和我有和我有和人<br /></span><span class="ne-text">人的我有的我有和我有和人有和人有和人的和人的我人的我有的我有的我</span></p><div class="ne-quote"><p id="u95ecd6aa" class="ne-p"><span class="ne-text">22-02-14</span></p></div><p id="ua8ec2439" class="ne-p"><span class="ne-text">人的我有的我有和我有和人有和人有和人的和人的我人的我有的我有的我<br /></span><span class="ne-text">有和人的和人的我人的我有的我有的我有和我有和人有和人的和人的和人</span></p><div class="ne-quote"><p id="uf5abada4" class="ne-p"><span class="ne-text">23-02-13</span></p></div><p id="u67109978" class="ne-p"><span class="ne-text">人的我有的我有和我有和人有和人有和人的和人的我人的我有的我有的我<br /></span><span class="ne-text">有和我有和人有和人的和人的和人的我人的我有的我有和我有和我有和人<br /></span><span class="ne-text">有和人的和人的我人的我有的我有的我有和我有各人有和人的和人的和人<br /></span><span class="ne-text">人的我有的我有和我有和人有和人有和人的和人的我人的我有的我有的我<br /></span><span class="ne-text">的我人的</span></p></details>
 ### 一级简码四区
-1. 主 `ygd `y
-2. 产 `ute `u
-3. 不 `gii `i
-4. 为 `ylyi`o
-5. 这 `ypi `p
 
-<details class="lake-collapse"><summary id="u5de88220"><span class="ne-text">主主主主产产产产不不不为为为这这这这</span></summary><div class="ne-quote"><p id="u080c5d14" class="ne-p"><span class="ne-text">22-02-19</span></p></div><p id="u74a34a85" class="ne-p"><span class="ne-text">主产不为这这不为产主产不不为这主不为这这为产不为这主产不为这</span></p><div class="ne-quote"><p id="ufa9d2a0a" class="ne-p"><span class="ne-text">22-02-14</span></p></div><p id="uefa68c19" class="ne-p"><span class="ne-text">主主主主产产产不不不产产产为为为为为这这这这<br /></span><span class="ne-text">主主主主产产产产产不不不为为为为为这这这这这这<br /></span><span class="ne-text">这为不产产产主主主主产主主产不为这这这这产产不</span></p></details>
+1. 主 `ygd`y
+2. 产 `ute`u
+3. 不 `gii`i
+4. 为 `ylyi`o
+5. 这 `ypi`p
+
 ### 一级简码五区
-1. 民 `nav `n
-2. 了 `bnh `b
+
+1. 民 `nav`n
+2. 了 `bnh`b
 3. 发 `ncty`v
 4. 以 `nywy`c
-5. 经 `xca `x
-
-<details class="lake-collapse"><summary id="udfd1530e"><span class="ne-text">民了发以经经以发了民民了发以经经以发了民</span></summary><div class="ne-quote"><p id="u5b07a55a" class="ne-p"><span class="ne-text">22-02-19</span></p></div><p id="ua283b8a1" class="ne-p"><span class="ne-text">民以发了经</span></p></details>
+5. 经 `xca`x
