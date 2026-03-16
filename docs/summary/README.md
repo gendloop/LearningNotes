@@ -1,8 +1,8 @@
 # Summary
 
-* [design-patterns](design-patterns/README.md)
-* [links](links/README.md)
-* [specifications](specifications/README.md)
-* [symbols](symbols/README.md)
-* [wechat](wechat/README.md)
-* [windows](windows/README.md)
+* [Design Patterns](design-patterns/README.md)
+* [Links](links/README.md)
+* [Specifications](specifications/README.md)
+* [Symbols](symbols/README.md)
+* [WeChat](wechat/README.md)
+* [Windows](windows/README.md)
