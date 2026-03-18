@@ -82,6 +82,9 @@
 
 * [Summary](docs/summary/README.md)
   * [Design Patterns](docs/summary/design-patterns/README.md)
+    * [Creational Patterns](docs/summary/design-patterns/creational_patterns.md)
+    * [Structural Patterns](docs/summary/design-patterns/structural_patterns.md)
+    * [Behavioral Patterns](docs/summary/design-patterns/behavioral_patterns.md)
   * [Links](docs/summary/links/README.md)
   * [Specifications](docs/summary/specifications/README.md)
   * [Symbols](docs/summary/symbols/README.md)
