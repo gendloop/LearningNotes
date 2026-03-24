@@ -1,6 +1,6 @@
 # Let's learn
 
-记录学习笔记
+学习笔记
 
 * [Tools](docs/tools/README.md)
   * [7z](docs/tools/7z/README.md)

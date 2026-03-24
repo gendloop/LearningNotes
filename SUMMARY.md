@@ -86,6 +86,8 @@
     * [Structural Patterns](docs/summary/design-patterns/structural_patterns.md)
     * [Behavioral Patterns](docs/summary/design-patterns/behavioral_patterns.md)
   * [Links](docs/summary/links/README.md)
+    * [Daily](docs/summary/links/daily.md)
+    * [Search](docs/summary/links/search.md)
   * [Specifications](docs/summary/specifications/README.md)
   * [Symbols](docs/summary/symbols/README.md)
   * [WeChat](docs/summary/wechat/README.md)
