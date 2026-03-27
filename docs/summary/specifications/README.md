@@ -8,3 +8,5 @@
 * [C++](c++.md)
 * [C++ Comment](c++_comment.md)
 * [Class Name](class_name.md)
+* [Languages](languages.md)
+* [Countries](countries.md)
