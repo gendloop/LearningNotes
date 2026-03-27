@@ -46,7 +46,7 @@
 | 描述 | 链接 | 备注 |
 | :--- | :--- | :--- |
 | 文件格式转化 | [Try pandoc!](https://pandoc.org/try/) | |
-| 图片去背景 | [在线抠图软件_图片去除背景 | remove.bg – remove.bg](<https://www.remove.bg/zh>) | |
+| 图片去背景 | [在线抠图软件_图片去除背景](<https://www.remove.bg/zh>) | |
 | 图片压缩 | [TinyPNG – 智能压缩您的WebP、JPEG和PNG图片](https://tinypng.com/cn/) | |
 | 删除图片中不需要的部分 | [删除照片中的物体](https://magicstudio.com/zh/magiceraser/) | |
 | 图表快速生成 | [Examples - Apache ECharts](https://echarts.apache.org/examples/zh/index.html) | |
