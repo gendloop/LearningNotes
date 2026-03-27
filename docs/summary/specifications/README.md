@@ -7,3 +7,4 @@
 * [YuQue](yuque.md)
 * [C++](c++.md)
 * [C++ Comment](c++_comment.md)
+* [Class Name](class_name.md)
