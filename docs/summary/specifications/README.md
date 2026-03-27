@@ -5,3 +5,4 @@
 * [Abbr](abbr.md)
 * [GitHub](github.md)
 * [YuQue](yuque.md)
+* [C++](c++.md)
