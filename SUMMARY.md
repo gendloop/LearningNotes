@@ -90,6 +90,7 @@
     * [Search](docs/summary/links/search.md)
     * [Tools](docs/summary/links/tools.md)
     * [Resources](docs/summary/links/resources.md)
+    * [Help](docs/summary/links/help.md)
   * [Specifications](docs/summary/specifications/README.md)
   * [Symbols](docs/summary/symbols/README.md)
   * [WeChat](docs/summary/wechat/README.md)

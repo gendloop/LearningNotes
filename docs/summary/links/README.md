@@ -4,3 +4,4 @@
 * [Search](search.md)
 * [Tools](tools.md)
 * [Resources](resources.md)
+* [Help](help.md)
