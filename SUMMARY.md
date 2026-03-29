@@ -113,6 +113,5 @@
     * [Roman](docs/summary/symbols/roman.md)
     * [Math](docs/summary/symbols/math.md)
     * [Phonetic](docs/summary/symbols/phonetic.md)
-    * [Emoticon](docs/summary/symbols/emoticon.md)
   * [WeChat](docs/summary/wechat/README.md)
   * [Windows](docs/summary/windows/README.md)
