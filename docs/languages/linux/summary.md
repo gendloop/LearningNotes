@@ -286,6 +286,20 @@ PubkeyAuthentication yes   # 启用公钥认证
 $ sudo systemctl restart sshd
 ```
 
+### ssh传统PEM(RSA)密钥生成
+
+```bash
+# RSA密钥生成, 4096位, PEM格式
+ssh-keygen -t rsa -b 4096 -m PEM -C "gendloop@163.com"
+
+# 从OPENSSH格式的私钥转换为PEM格式
+ssh-keygen -p -m PEM -f ~/.ssh/id_rsa -N ""
+# -p: 修改私钥密码
+# -m PEM: 输出PEM格式
+# -f: 指定私钥文件
+# -N "": 设置新密码为空(即不设置密码)
+```
+
 ### ssh自动连接服务器配置
 
 ```bash
