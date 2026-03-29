@@ -10,3 +10,4 @@
 * [Class Name](class_name.md)
 * [Languages](languages.md)
 * [Countries](countries.md)
+* [Opposite](opposite.md)
