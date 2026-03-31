@@ -16,9 +16,9 @@
 | res | 资源 |
 | lib | 库 |
 | mall | 商城 |
-| image | 图片 |
+| images | 图片 |
 | product | 商品 |
-| picture | 图像 |
+| pictures | 图像 |
 | search | 搜索 |
 | section | 区块 |
 | shop | 商店 |
@@ -28,7 +28,7 @@
 | tuan | 团购 |
 | ucenter | 用户中心 |
 | upload | 上传 |
-| video | 视频 |
+| videos | 视频 |
 | vote | 投票 |
 | zh-tw | 繁体中文 |
 | zh-cn | 简体中文 |
