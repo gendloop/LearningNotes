@@ -144,5 +144,6 @@
     * [Phonetic](docs/summary/symbols/phonetic.md)
 
   * [WeChat](docs/summary/wechat/README.md)
+    * [Weixin Official Account](docs/summary/wechat/weixin_official_account.md)
 
   * [Windows](docs/summary/windows/README.md)
