@@ -301,6 +301,10 @@ echo $(git symbolic-ref --short HEAD)
 ### 获取仓库大小
 
 ```bash
+# 方法一: 直接查看.git目录大小
+du -sh .git
+
+# 方法二: 使用count-objects命令
 git count-objects -vH
 ```
 
