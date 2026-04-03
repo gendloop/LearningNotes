@@ -2,69 +2,6 @@
 
 * [目录](INTRO.md)
 
-* [Tools](docs/tools/README.md)
-
-  * [7z](docs/tools/7z/README.md)
-    * [Guide](docs/tools/7z/guide.md)
-    * [Examples](docs/tools/7z/examples.md)
-
-  * [curl](docs/tools/curl/README.md)
-    * [Summary](docs/tools/curl/summary.md)
-
-  * [Docker](docs/tools/docker/README.md)
-    * [Guide](docs/tools/docker/guide.md)
-    * [Command](docs/tools/docker/command.md)
-    * [Dockerfile](docs/tools/docker/dockerfile.md)
-    * [Practice](docs/tools/docker/practice.md)
-
-  * [Doxygen](docs/tools/doxygen/README.md)
-    * [Config](docs/tools/doxygen/config.md)
-    * [Examples](docs/tools/doxygen/examples.md)
-
-  * [FFmpeg](docs/tools/ffmpeg/README.md)
-    * [Guide](docs/tools/ffmpeg/guide.md)
-    * [Summary](docs/tools/ffmpeg/summary.md)
-
-  * [Git](docs/tools/git/README.md)
-    * [Summary](docs/tools/git/summary.md)
-
-  * [GitBook](docs/tools/gitbook/README.md)
-    * [Guide](docs/tools/gitbook/guide.md)
-
-  * [GoogleTest](docs/tools/googletest/README.md)
-    * [Guide](docs/tools/googletest/guide.md)
-
-  * [Mermaid](docs/tools/mermaid/README.md)
-    * [Guide](docs/tools/mermaid/guide.md)
-
-  * [nginx](docs/tools/nginx/README.md)
-    * [Guide](docs/tools/nginx/guide.md)
-
-  * [qmake](docs/tools/qmake/README.md)
-    * [Guide](docs/tools/qmake/guide.md)
-
-  * [qpdf](docs/tools/qpdf/README.md)
-    * [Guide](docs/tools/qpdf/guide.md)
-
-  * [reveal-md](docs/tools/reveal-md/README.md)
-    * [Guide](docs/tools/reveal-md/guide.md)
-
-  * [staticrypt](docs/tools/staticrypt/README.md)
-    * [Guide](docs/tools/staticrypt/guide.md)
-
-  * [vim](docs/tools/vim/README.md)
-    * [Guide](docs/tools/vim/guide.md)
-    * [Summary](docs/tools/vim/summary.md)
-
-  * [VS](docs/tools/vs/README.md)
-    * [Troubleshooting](docs/tools/vs/troubleshooting.md)
-
-  * [VSCode](docs/tools/vscode/README.md)
-    * [Summary](docs/tools/vscode/summary.md)
-
-  * [Zsh](docs/tools/zsh/README.md)
-    * [Guide](docs/tools/zsh/guide.md)
-
 * [Languages](docs/languages/README.md)
 
   * [C++](docs/languages/c++/README.md)
@@ -149,3 +86,66 @@
   * [Windows](docs/summary/windows/README.md)
     * [Config](docs/summary/windows/config.md)
     * [Troubleshooting](docs/summary/windows/troubleshooting.md)
+
+* [Tools](docs/tools/README.md)
+
+  * [7z](docs/tools/7z/README.md)
+    * [Guide](docs/tools/7z/guide.md)
+    * [Examples](docs/tools/7z/examples.md)
+
+  * [curl](docs/tools/curl/README.md)
+    * [Summary](docs/tools/curl/summary.md)
+
+  * [Docker](docs/tools/docker/README.md)
+    * [Guide](docs/tools/docker/guide.md)
+    * [Command](docs/tools/docker/command.md)
+    * [Dockerfile](docs/tools/docker/dockerfile.md)
+    * [Practice](docs/tools/docker/practice.md)
+
+  * [Doxygen](docs/tools/doxygen/README.md)
+    * [Config](docs/tools/doxygen/config.md)
+    * [Examples](docs/tools/doxygen/examples.md)
+
+  * [FFmpeg](docs/tools/ffmpeg/README.md)
+    * [Guide](docs/tools/ffmpeg/guide.md)
+    * [Summary](docs/tools/ffmpeg/summary.md)
+
+  * [Git](docs/tools/git/README.md)
+    * [Summary](docs/tools/git/summary.md)
+
+  * [GitBook](docs/tools/gitbook/README.md)
+    * [Guide](docs/tools/gitbook/guide.md)
+
+  * [GoogleTest](docs/tools/googletest/README.md)
+    * [Guide](docs/tools/googletest/guide.md)
+
+  * [Mermaid](docs/tools/mermaid/README.md)
+    * [Guide](docs/tools/mermaid/guide.md)
+
+  * [nginx](docs/tools/nginx/README.md)
+    * [Guide](docs/tools/nginx/guide.md)
+
+  * [qmake](docs/tools/qmake/README.md)
+    * [Guide](docs/tools/qmake/guide.md)
+
+  * [qpdf](docs/tools/qpdf/README.md)
+    * [Guide](docs/tools/qpdf/guide.md)
+
+  * [reveal-md](docs/tools/reveal-md/README.md)
+    * [Guide](docs/tools/reveal-md/guide.md)
+
+  * [staticrypt](docs/tools/staticrypt/README.md)
+    * [Guide](docs/tools/staticrypt/guide.md)
+
+  * [vim](docs/tools/vim/README.md)
+    * [Guide](docs/tools/vim/guide.md)
+    * [Summary](docs/tools/vim/summary.md)
+
+  * [VS](docs/tools/vs/README.md)
+    * [Troubleshooting](docs/tools/vs/troubleshooting.md)
+
+  * [VSCode](docs/tools/vscode/README.md)
+    * [Summary](docs/tools/vscode/summary.md)
+
+  * [Zsh](docs/tools/zsh/README.md)
+    * [Guide](docs/tools/zsh/guide.md)
