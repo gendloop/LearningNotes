@@ -348,6 +348,10 @@ find . -type f -name '*.ini' -exec sed -i 's/\.png/\.bmp/g' {} \;
 ### 批量修改文件名
 
 ```bash
+# 方式1
+find . -name "*.md" -exec sh -c 'mv "$1" "${1%.md}.txt"' _ {} \;
+
+# 方式2
 for file in *.svg+xml; do
     mv "$file" "${file%.svg+xml}.svg"
 done
@@ -378,3 +382,4 @@ done
 | Ctrl+T | 交换当前字符和前一个字符 |
 | Alt+T | 交换当前单词和前一个单词 |
 | Ctrl+Shift+- | 撤销上一次操作 |
+| Ctrl+Shift+C | 复制鼠标选择的内容 |
