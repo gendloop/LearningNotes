@@ -36,27 +36,26 @@
 
 ## 登陆密码自动输入
 
-1. `win + i` 打开 `设置`
-=> `账户`=> `登陆选项`
-=> `其他设置` => `为了提高....Windows Hello 登录(推荐)` => `关`
-2. `win + r` 运行 `netplwiz` (Network Places Wizard)
- => <u>取消</u>勾选 `要使用本计算机, 用户必须输入用户名和密码`
-=> 点击 `应用`
-=> 弹出自动登陆提示框
-=> 输入 $ Microsoft $**微软账户**的 `用户名(登陆邮箱)`和 `密码(登陆密码)`
+1. `Win+I`打开`设置`
+    => `账户`=>`登陆选项`
+    => `其他设置`=>`为了提高....Windows Hello 登录(推荐)`=>`关`
+2. `Win + R`运行`netplwiz`(Network Places Wizard)
+    => 取消勾选`要使用本计算机, 用户必须输入用户名和密码`
+    => 点击`应用`
+    => 弹出自动登陆提示框
+    => 输入$Microsoft$微软账户的`用户名(登陆邮箱)`和`密码(登陆密码)`
 
 ## 磁盘分区
 
-只能固定分四个盘
+* 只能固定分四个盘
+* D盘, F盘内的所有数据可随时删除
 
 | **磁盘** | **名称** | **大小** |
 | --- | --- | --- |
 | C: | 系统盘 | 30% |
-| D: | <font style="color:rgb(38, 38, 38);">数据盘</font> | <font style="color:rgb(38, 38, 38);">10%</font> |
-| E: | <font style="color:rgb(38, 38, 38);">软件盘</font> | <font style="color:rgb(38, 38, 38);">30%</font> |
-| F: | <font style="color:rgb(38, 38, 38);">备份盘</font> | <font style="color:rgb(38, 38, 38);">30%</font> |
-
-* D 盘, F 盘内的所有数据 可随时删除
+| D: | 数据盘 | 10% |
+| E: | 软件盘 | 30% |
+| F: | 备份盘 | 30% |
 
 ## 必需目录或文件
 
@@ -64,24 +63,24 @@
 
 | **目录/文件** | **位置** | **来源** |
 | --- | --- | --- |
-| `Tools` | 行 1 列 中 1 | [https://github.com/gendloop/Tools](https://github.com/gendloop/Tools) |
-| `MyRepos` | 行 1 列 中 2 | [https://github.com/gendloop/Tools/tree/main/MyRepos](https://github.com/gendloop/Tools/tree/main/MyRepos) |
-| `WorkRepos` | 行 1 列 中 3 | [https://github.com/gendloop/Tools/tree/main/WorkRepos](https://github.com/gendloop/Tools/tree/main/WorkRepos) |
-| `Private` | 行 1 列 中 4 | 坚果云盘 同步至本地 |
-| `BaiduSyncdisk` | 行 1 列 中 5 | 百度云盘 同步空间 同步至本地 |
-| `empty_recycle_bin.bat` | 行 1 列 右 1 | [https://github.com/gendloop/Tools/tree/main/Windows/Desktop](https://github.com/gendloop/Tools/tree/main/Windows/Desktop) |
-| `scoop_apps_folder.bat` | 行 1 列 右 2 | [https://github.com/gendloop/Tools/tree/main/Windows/Desktop](https://github.com/gendloop/Tools/tree/main/Windows/Desktop) |
-| `del_link.bat` | 行 1 列 右 3 | [https://github.com/gendloop/Tools/tree/main/Windows/Desktop](https://github.com/gendloop/Tools/tree/main/Windows/Desktop) |
-| `shutdown.bat` | 行 1 列 右 4 | [https://github.com/gendloop/Tools/tree/main/Windows/Desktop](https://github.com/gendloop/Tools/tree/main/Windows/Desktop) |
+| `Tools` | 行1 列中1 | [Tools](https://github.com/gendloop/Tools) |
+| `MyRepos` | 行1 列中2 | [Tools/MyRepos](https://github.com/gendloop/Tools/tree/main/MyRepos) |
+| `WorkRepos` | 行1 列中3 | [Tools/WorkRepos](https://github.com/gendloop/Tools/tree/main/WorkRepos) |
+| `Private` | 行1 列中4 | 坚果云盘同步至本地 |
+| `BaiduSyncdisk` | 行1 列中5 | 百度云盘同步空间同步至本地 |
+| `empty_recycle_bin.bat` | 行1 列右1 | [Tools/Windows/Desktop](https://github.com/gendloop/Tools/tree/main/Windows/Desktop) |
+| `scoop_apps_folder.bat` | 行1 列右2 | [Tools/Windows/Desktop](https://github.com/gendloop/Tools/tree/main/Windows/Desktop) |
+| `del_link.bat` | 行1 列右3 | [Tools/Windows/Desktop](https://github.com/gendloop/Tools/tree/main/Windows/Desktop) |
+| `shutdown.bat` | 行1 列右4 | [Tools/Windows/Desktop](https://github.com/gendloop/Tools/tree/main/Windows/Desktop) |
 
 ### 启动项
 
 | **启动项** | **添加方式** | **来源** |
 | --- | --- | --- |
-| `<font style="color:rgb(38, 38, 38);">linux-start.vbs</font>` | `<font style="color:rgb(38, 38, 38);">shell:startup</font>` | [https://github.com/gendloop/Tools/tree/main/Windows/StartUp](https://github.com/gendloop/Tools/tree/main/Windows/StartUp) |
-| `AutoStartPortProxy` | 任务计划程序 | [https://github.com/gendloop/Tools/tree/main/Windows](https://github.com/gendloop/Tools/tree/main/Windows) |
-| `AutoStartSyncthing` | 任务计划程序 | [https://github.com/gendloop/Tools/tree/main/Windows](https://github.com/gendloop/Tools/tree/main/Windows) |
-| `AutoStartWifiHotSpot` | 任务计划程序 | [https://github.com/gendloop/Tools/tree/main/Windows](https://github.com/gendloop/Tools/tree/main/Windows) |
+| `linux-start.vbs` | `shell:startup` | [Tools/Windows/StartUp](https://github.com/gendloop/Tools/tree/main/Windows/StartUp) |
+| `AutoStartPortProxy` | 任务计划程序 | [Tools/Windows](https://github.com/gendloop/Tools/tree/main/Windows) |
+| `AutoStartSyncthing` | 任务计划程序 | [Tools/Windows](https://github.com/gendloop/Tools/tree/main/Windows) |
+| `AutoStartWifiHotSpot` | 任务计划程序 | [Tools/Windows](https://github.com/gendloop/Tools/tree/main/Windows) |
 
 ### E: 软件盘
 
