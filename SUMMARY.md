@@ -147,3 +147,5 @@
     * [Weixin Official Account](docs/summary/wechat/weixin_official_account.md)
 
   * [Windows](docs/summary/windows/README.md)
+    * [Config](docs/summary/windows/config.md)
+    * [Troubleshooting](docs/summary/windows/troubleshooting.md)
