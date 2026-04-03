@@ -3,7 +3,7 @@
 ## 重装系统时遇到`选中的磁盘具有MBR分区表`
 
 1. 进入到弹出该错误窗口时的位置, 记该错误窗口为$W$
-2. 按下`shift + F10`, 会弹出命令行窗口
+2. 按下`Shift+F10`, 会弹出命令行窗口
     1. 输入`diskpart`, 回车
     2. 输入`list disk`, 回车
     3. 输入`select disk 0`, 回车
@@ -46,5 +46,5 @@
 
 ## References
 
-1. [最新Win11系统怎么删除开机密码 Win11取消登录密码图文教程 - 知乎.html](https://www.yuque.com/attachments/yuque/0/2023/html/22048361/1699451571910-40719255-2a0b-4a4b-9763-78202d1769b9.html)
-2. [Windows无法安装到这个磁盘 选中的磁盘具有MBR分区表 - 知乎.html](https://www.yuque.com/attachments/yuque/0/2023/html/22048361/1699453574988-cb076f67-e5a7-49be-822f-9cb31c4631d5.html)
+1. [最新Win11系统怎么删除开机密码Win11取消登录密码图文教程-知乎.html](https://www.yuque.com/attachments/yuque/0/2023/html/22048361/1699451571910-40719255-2a0b-4a4b-9763-78202d1769b9.html)
+2. [Windows无法安装到这个磁盘选中的磁盘具有MBR分区表-知乎.html](https://www.yuque.com/attachments/yuque/0/2023/html/22048361/1699453574988-cb076f67-e5a7-49be-822f-9cb31c4631d5.html)
