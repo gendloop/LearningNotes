@@ -376,3 +376,9 @@ du -sh .git
 ```bash
 git fetch --prune
 ```
+
+### 删除远程不存在的本地tag
+
+```bash
+git fetch --prune origin --prune-tags
+```
