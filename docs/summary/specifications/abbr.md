@@ -124,3 +124,4 @@
 | multiple | multi |
 | Minimum Spanning Tree | MST |
 | job description | JD |
+| tolerance | tol |
