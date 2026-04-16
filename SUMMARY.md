@@ -40,6 +40,9 @@
   * [nginx](docs/tools/nginx/README.md)
     * [Guide](docs/tools/nginx/guide.md)
 
+  * [ohmyzsh](docs/tools/ohmyzsh/README.md)
+    * [Guide](docs/tools/ohmyzsh/guide.md)
+
   * [qmake](docs/tools/qmake/README.md)
     * [Guide](docs/tools/qmake/guide.md)
 
@@ -61,9 +64,6 @@
 
   * [VSCode](docs/tools/vscode/README.md)
     * [Summary](docs/tools/vscode/summary.md)
-
-  * [Zsh](docs/tools/zsh/README.md)
-    * [Guide](docs/tools/zsh/guide.md)
 
 * [Languages](docs/languages/README.md)
 

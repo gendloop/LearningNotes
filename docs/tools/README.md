@@ -10,6 +10,7 @@
 * [GoogleTest](googletest/README.md)
 * [Mermaid](mermaid/README.md)
 * [nginx](nginx/README.md)
+* [ohmyzsh](ohmyzsh/README.md)
 * [qmake](qmake/README.md)
 * [qpdf](qpdf/README.md)
 * [reveal-md](reveal-md/README.md)
@@ -17,4 +18,3 @@
 * [vim](vim/README.md)
 * [vs](vs/README.md)
 * [vscode](vscode/README.md)
-* [zsh](zsh/README.md)

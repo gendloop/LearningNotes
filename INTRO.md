@@ -13,6 +13,7 @@
   * [GoogleTest](docs/tools/googletest/README.md)
   * [Mermaid](docs/tools/mermaid/README.md)
   * [nginx](docs/tools/nginx/README.md)
+  * [ohmyzsh](docs/tools/ohmyzsh/README.md)
   * [qmake](docs/tools/qmake/README.md)
   * [qpdf](docs/tools/qpdf/README.md)
   * [reveal-md](docs/tools/reveal-md/README.md)
@@ -20,7 +21,6 @@
   * [vim](docs/tools/vim/README.md)
   * [VS](docs/tools/vs/README.md)
   * [VSCode](docs/tools/vscode/README.md)
-  * [Zsh](docs/tools/zsh/README.md)
 
 * [Languages](docs/languages/README.md)
   * [C++](docs/languages/c++/README.md)

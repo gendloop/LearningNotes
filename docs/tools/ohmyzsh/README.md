@@ -1,3 +1,3 @@
-# Zsh
+# ohmyzsh
 
 * [Guide](guide.md)
