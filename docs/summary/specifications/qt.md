@@ -1,7 +1,7 @@
 # Qt
 
 | 原始类型 | 缩写 |
-|----------|------|
+| :--- | :--- |
 | QAction | act |
 | QCheckBox | chkbox |
 | QCommandLinkButton | cmdlnkbtn |
