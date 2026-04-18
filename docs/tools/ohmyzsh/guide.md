@@ -5,21 +5,22 @@
 ```bash
 # 更新源
 $ sudo apt update
-# 安装Zsh
+
+# 安装zsh
 sudo apt install zsh -y
-# 安装OhMyZsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# 安装ohmyzsh
+git clone https://github.com/gendloop/ohmyzsh  ${ZSH:-~/.oh-my-zsh}
+
+# 复制配置文件
+cp ${ZSH:-~/.oh-my-zsh}/templates/.zshrc ~/.zshrc
+
 # 查看可用shell
 cat /etc/shells
+
 # 设置zsh为默认shell
 chsh -s $(which zsh)
+
 # 查看当前shell
 echo $SHELL
-```
-
-## 配置
-
-```bash
-# 编辑配置
-vim ~/.zshrc
 ```
