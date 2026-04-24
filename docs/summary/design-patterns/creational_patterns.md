@@ -2,27 +2,69 @@
 
 ## Singleton
 
-![](res/353fcccef1b2f0f0816f4d052dce3580.svg)
+```mermaid
+classDiagram
+
+class Singleton {
+  +static SingletonUPtr& GetInstance();
+
+  -Singleton(const Singleton&) = delete;
+  -Singleton& operator&(const Singleton&) = delete;
+}
+```
 
 ## Builder
 
-![](res/983157501560757289963bdf43eead7c.svg)
+```mermaid
+graph BT
+
+h1[Product]
+
+h21[Part1] --> h1
+h22[Part2] --> h1
+h23[Part3] --> h1
+
+h1 --> h3(Builder)
+```
 
 ### Case1: Meal Package
 
-![](https://cdn.nlark.com/yuque/__mermaid_v3/f01dd47dc5911e0d9feb79066e565cab.svg)
+```mermaid
+graph BT
+
+Meal --> MealPackage
+
+Item(Items) --> Meal
+
+Hambuger --> Item
+Soda --> Item
+```
 
 ## Factory
 
-![](res/0d302bbdd7956c60fc28831bdd4e453b.svg)
+```mermaid
+flowchart
+
+1[Single Product]
+```
 
 ### Case1: Shape Factory
 
-![](res/b79c78ccc070b7d892ae6d2785c01d34.svg)
+```mermaid
+flowchart RL
+
+2.1[Circle] --> 1[Shape Factory]
+2.2[Square] --> 1[Shape Factory]
+```
 
 ### Case2: Color Factory
 
-![](res/e3eafbdf4cec44c906f15c2f35e03eb7.svg)
+```mermaid
+flowchart RL
+
+2.1[Red] --> 1[Color Factory]
+2.2[Green] --> 1[Color Factory]
+```
 
 ## Abstract Factory
 
@@ -34,6 +76,14 @@ graph LR
 
 ### Case1: Color Shape Factory
 
-![](res/eb42f9b63894047feac4ff4c7ec3d167.svg)
+```mermaid
+flowchart BT
+
+ColorShape2DFactory --> IColorShapeFactory
+ColorShape3DFactory --> IColorShapeFactory
+
+ColorFactory --> ColorShapeFactory
+ShapeFactory --> ColorShapeFactory
+```
 
 ## Prototype
