@@ -11,7 +11,7 @@ reg import "<root>\install-associations.reg"
 ## 常用快捷键
 
 | 功能 | 快捷键 |
-| --- | --- |
+| :--- | :--- |
 | 打开文件夹 | `Ctrl+K, Ctrl+O` |
 | 资源管理器 | `Ctrl+Shift+E` |
 | 搜索 | `Ctrl+Shift+F` |
