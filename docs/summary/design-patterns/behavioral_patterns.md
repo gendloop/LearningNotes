@@ -2,53 +2,120 @@
 
 ## Strategy
 
-![](res/b587a26ab4064938934f8144060268c1.svg)
+```mermaid
+flowchart LR
+Context --> Strategy
+
+subgraph Dynamic Choose
+Strategy --> Strategy1 & Strategy2 & ...
+end
+```
 
 ### Case 1: TripMode
 
-![](res/62f58113c6abf756fcf4b8813c125e83.svg)
+```mermaid
+flowchart BT
+ByBus & ByTrain & ByPlane --> TripMode
+```
 
 ```mermaid
-graph LR
+flowchart LR
 p[enum TYPE]
 ch1[BY_BUS]
 ch2[BY_TRAIN]
 ch3[BY_PLANE]
 
-p --> ch1
-p --> ch2
-p --> ch3
+p --> ch1 & ch2 & ch3
 ```
 
-![](res/4c751f61496388bdfd7349dff706fdd8.svg)
+```mermaid
+classDiagram
+TripMode <|-- ByBus
+TripMode <|-- ByTrain
+TripMode <|-- ByPlane
+
+class TripMode {
+ + virtual TYPE getType();
+ + virtual void travel();
+}
+
+class ByBus {
+ + virtual TYPE getType();
+ + virtual void travel();
+}
+
+class ByTrain {
+ + virtual TYPE getType();
+ + virtual void travel();
+}
+
+class ByPlane {
+ + virtual TYPE getType();
+ + virtual void travel();
+}
+```
 
 ```mermaid
-graph LR
+flowchart LR
 p[static unordered_map s_trip_modes_]
 ch1[BY_BUS, ByBus*]
 ch2[BY_TRAIN, ByTrain*]
 ch3[BY_PLANE, ByPlane*]
 
-p --> ch1
-p --> ch2
-p --> ch3
+p --> ch1 & ch2 & ch3
 ```
 
 ### Case 2: MathOperation
 
-![](res/2afb8463f2f1e4bedaab5dd72599fedd.svg)
+```mermaid
+flowchart BT
+Add & Subtract & Multiply & Devide --> MathOperation
+```
 
 ### Case 3: ParseFile
 
-![](res/f65fbc15813abddbebbe5da69abdc0d9.svg)
+```mermaid
+flowchart BT
+ParseDxf & ParseJson & ParseStep --> ParseFile
+```
 
 ## Chain of Responsibility
 
-![](res/cebbde950af9894936110affc66ca9a5.svg)
+```mermaid
+flowchart LR
 
-![](res/ea6c90febc97e649ed41136a4eff0fc9.svg)
+Root[A Request]
+h1[Handle1]
+h2[Handle2]
+h3[...]
+h4[Handle4]
 
-![](res/5934c74bfc38658378cb523f2616bd18.svg)
+Root --> h1 --> h2 --> h3 --> h4
+```
+
+```mermaid
+flowchart BT
+
+h1[Handle1::deal]
+h2[Handle2::deal]
+h3[...::deal]
+h4[Handle4::deal]
+h[Handle::deal]
+
+h1 & h2 & h3 & h4 --> h
+```
+
+```mermaid
+classDiagram
+class Handle {
+ -Handle* next_handle_;
+
+ +void filter(const Request&, Response&);
+ +void setNextHandle(Handle*);
+ +Handle* getNextHandle();
+ +virtual deal(const Request&, Response&);
+}
+```
 
 ```cpp
 void filter(const Request& req, Response& res) {
@@ -64,25 +131,45 @@ void filter(const Request& req, Response& res) {
 }
 ```
 
-![](res/3b0869ee3bc3119060b948d2ac5adaa6.svg)
+```mermaid
+flowchart
+subgraph HandleChain
+Handle1 --setNextHandle--> Handle2 --setNextHandle--> ... --setNextHandle--> Handle4
+end
+
+Req[A Request] --> HandleChain
+HandleChain .-> Res[Response]
+```
 
 ### Case 1: Logger
 
-![](res/b8a578b159c7f71be2376d153653b4d9.svg)
+```mermaid
+flowchart
+subgraph LoggerChain
+ErrorLogger --gotoNext-->
+WarnLogger --gotoNext-->
+InfoLogger
+
+ErrorLogger --Log ?--> ErrorLogger
+WarnLogger --Log ?--> WarnLogger
+InfoLogger --Log ?--> InfoLogger
+
+end
+
+Req[A Log] --> LoggerChain
+LoggerChain .-> Res[Response]
+```
 
 ### Case 2: PassNotes
 
 ```mermaid
 flowchart
 subgraph PassNotesChain
-Girl1 --passToTheNext-->
-Girl2 --passToTheNext-->
-Girl3
+Girl1 --passToTheNext--> Girl2 --passToTheNext--> Girl3
 
 Girl1 --Be my girlfriend ?--> Girl1
 Girl2 --Be my girlfriend ?--> Girl2
 Girl3 --Be my girlfriend ?--> Girl3
-
 end
 
 Req[A Note] --> PassingNotesChain
@@ -91,28 +178,99 @@ PassingNotesChain .-> Res[Response]
 
 ## Template
 
-![](res/2e880734dd078471c4331352fb53b1cb.svg)
+```mermaid
+classDiagram
+
+Template <|-- A
+Template <|-- B
+Template <|-- C
+
+class Template {
+ +void commonMethod();
+ +virtual void uniqueMethod();
+}
+
+class A {
+ +virtual void uniqueMethod();
+}
+class B {
+ +virtual void uniqueMethod();
+}
+class C {
+ +virtual void uniqueMethod();
+}
+```
 
 ### Case 1: Charge Device
-
-![](res/e08b375be6ca7c249e5d9160314b5f87.svg)
 
 ```mermaid
 flowchart LR
 
-ChargeDevice --- ChargePhone & ChargeComputer & ChargeEV --- charge
+P[class ChargeDevice]
+M1[-void powerOn]
+M2[-void powerOff]
+M3[-virtual void charge]
 
+M4[+run]
+M4_Ex(powerOn, charge, powerOff)
+
+M1 & M2 & M3 --- P --- M4 --- M4_Ex
+```
+
+```mermaid
+flowchart LR
+ChargeDevice --- ChargePhone & ChargeComputer & ChargeEV --- charge
 charge ---> chargePhone & chargeComputer & chargeEV
 ```
 
 ### Case 2: Play Game
 
-![](res/e18e1add33e827df2e74b75f3903bb96.svg)
+```mermaid
+classDiagram
+PlayGame <|-- PlayGameA
+PlayGame <|-- PlayGameB
+
+class PlayGame {
+ +void play();
+
+ -virtual void initGame();
+ -virtual void startGame();
+ -virtual void endGame();
+}
+
+class PlayGameA{
+
+ -void initGame();
+ -void startGame();
+ -void endGame();
+}
+
+class PlayGameB{
+
+ -void initGame();
+ -void startGame();
+ -void endGame();
+}
+```
 
 ## State
 
-![](res/a4f2df43a9dd16ed0b9b06544db3474d.svg)
+```mermaid
+flowchart BT
+
+2[External Factors] --> Context
+
+Context  --reply--> 1[Inner State Changed]
+
+State1 --> 3[Inner State]
+State2 --> 3[Inner State]
+State3 --> 3[Inner State]
+```
 
 ### LightSwitch
 
-![](res/fba62554416bf816512b20ba5911cc33.svg)
+```mermaid
+flowchart LR
+Light --switch--> LightState
+LightState --- LightOn & LightOff
+```

@@ -2,16 +2,56 @@
 
 ## Flyweight
 
-![](res/e14f0b9ae76bb9adb9ac5d698e60cd0e.svg)
+```mermaid
+classDiagram
+
+class Flyweight {
+ std::unordered_map(name, obj) objs_;
+}
+```
 
 ### IconFlyweight
 
-![](res/29c0737b8a0649c3d2eadfa4a4d1d7a0.svg)
+```mermaid
+graph BT
+
+Icons --Contain--- IconFlyweight
+
+SaveIcon --> Icon
+OpenIcon --> Icon
+```
 
 ## Composite
 
-![](res/82343248c8de68221037836c898d3539.svg)
+```mermaid
+flowchart BT
+
+h1[Composite]
+h21[Leaf]
+h22[Composite]
+h31[Leaf]
+h32[Composite]
+
+h31 & h32 --> h22
+h21 & h22 --> h1
+```
 
 ### FileComponent
 
-![](res/42d5147fb8377e023c709da94c499cc1.svg)
+```mermaid
+flowchart BT
+
+h1[Directory]
+h21[File]
+h22[Directory]
+h31[File]
+h32[Directory]
+
+h31 & h32 --> h22
+h21 & h22 --> h1
+
+f1[FileComponent]
+f21[File]
+f22[Directory]
+f21 & f22 --> f1
+```
