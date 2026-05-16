@@ -1,6 +1,6 @@
 # Summary
 
-* [目录](INTRO.md)
+* [目录](README.md)
 
 * [Tools](docs/tools/README.md)
 

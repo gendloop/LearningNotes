@@ -6,7 +6,7 @@
   "language": "zh-hans",
   "root": ".",
   "structure": {
-    "readme": "INTRO.md"
+    "readme": "README.md"
   },
   "pdf": {
     "toc": true,
