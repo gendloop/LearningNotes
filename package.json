@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "build": "./node_modules/.bin/gitbook build -v 3.2.3",
-    "serve": "./node_modules/.bin/gitbook serve -v 3.2.3",
-    "pdf": "./node_modules/.bin/gitbook pdf -v 3.2.3",
-    "epub": "./node_modules/.bin/gitbook epub -v 3.2.3",
-    "mobi": "./node_modules/.bin/gitbook mobi -v 3.2.3"
+    "build": "gitbook build -v 3.2.3",
+    "serve": "gitbook serve -v 3.2.3",
+    "pdf": "gitbook pdf -v 3.2.3",
+    "epub": "gitbook epub -v 3.2.3",
+    "mobi": "gitbook mobi -v 3.2.3"
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2",
@@ -29,7 +29,7 @@
     "gitbook-plugin-include-csv": "^0.1.0",
     "gitbook-plugin-katex": "^1.1.4",
     "gitbook-plugin-klipse": "^1.2.0",
-    "gitbook-plugin-mermaid-newface": "^4.1.0",
+    "gitbook-plugin-mermaid-full": "^0.5.1",
     "gitbook-plugin-musicxml": "^1.0.2",
     "gitbook-plugin-prism": "^2.4.0",
     "gitbook-plugin-prism-themes": "^0.0.2",
