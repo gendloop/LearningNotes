@@ -42,10 +42,7 @@ jobs:
             ${{ runner.OS }}-gitbook-cache
       - name: Install dependencies
         if: steps.cache-npm.outputs.cache-hit != 'true'
-        run: npm install
-      - name: Fix file error
-        if: steps.cache-npm.outputs.cache-hit != 'true'
-        run: sed -i '62,64 s/^/\/\/ /' ./node_modules/npm/node_modules/graceful-fs/polyfills.js
+        run: curl -LJO https://github.com/gendloop/gitbook-node_modules/releases/download/v1.0.2/gitbook-node_modules-1.0.2-win64.7z | 7z x -si -aoa -o./node_modules
       - name: Build
         run: npm run build
       - name: Upload pages artifact
