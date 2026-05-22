@@ -4,7 +4,7 @@
 
 1. 下载公开仓库发布版本中的资源
 
-    `curl -KLJO https://github.com/USER/REPO/archive/refs/tags/ASSET`
+    `curl -LJO https://github.com/USER/REPO/releases/download/TAG/ASSET_NAME`
 
 2. 下载私有仓库发布版本中的资源
 
