@@ -47,7 +47,9 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-gitbook-cache
       - name: Install Chromium
-        run: npx puppeteer browsers install chrome
+        run: |
+          sudo apt update
+          sudo apt install -y chromium-browser
       - name: Install dependencies
         if: steps.cache-npm.outputs.cache-hit != 'true'
         run: |
