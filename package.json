@@ -29,7 +29,7 @@
     "gitbook-plugin-include-csv": "^0.1.0",
     "gitbook-plugin-katex": "^1.1.4",
     "gitbook-plugin-klipse": "^1.2.0",
-    "gitbook-plugin-mermaid-compat": "^0.1.0",
+    "gitbook-plugin-mermaid-gb3-fox": "^2.1.13",
     "gitbook-plugin-musicxml": "^1.0.2",
     "gitbook-plugin-prism": "^2.4.0",
     "gitbook-plugin-prism-themes": "^0.0.2",
