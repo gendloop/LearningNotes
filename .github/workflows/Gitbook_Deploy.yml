@@ -48,7 +48,9 @@ jobs:
           7z x gitbook-node_modules-1.0.2-win64.7z -aoa -o./node_modules
           rm gitbook-node_modules-1.0.2-win64.7z
       - name: Build
-        run: npm run build
+        run: |
+          chmod +x ./node_modules/.bin/gitbook
+          npm run build
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
