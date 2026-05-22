@@ -25,6 +25,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22.9.0"
+      - name: Cache Puppeteer's Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/puppeteer
+          key: ${{ runner.os }}-puppeteer-chromium
       - name: Cache NPM dependencies
         id: cache-npm
         uses: actions/cache@v4
@@ -41,12 +46,16 @@ jobs:
           key: ${{ runner.OS }}-gitbook-cache
           restore-keys: |
             ${{ runner.OS }}-gitbook-cache
+      - name: Install Chromium
+        run: npx puppeteer browsers install chrome
       - name: Install dependencies
         if: steps.cache-npm.outputs.cache-hit != 'true'
         run: |
           curl -LJO https://github.com/gendloop/gitbook-node_modules/releases/download/v1.0.2/gitbook-node_modules-1.0.2-win64.7z
           7z x gitbook-node_modules-1.0.2-win64.7z -aoa -o./node_modules
           rm gitbook-node_modules-1.0.2-win64.7z
+      - name: Install Chromium
+        run: npx puppeteer browsers install chrome
       - name: Build
         run: |
           chmod +x ./node_modules/.bin/*
