@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "build": "gitbook build -v 3.2.3",
-    "serve": "gitbook serve -v 3.2.3",
-    "pdf": "gitbook pdf -v 3.2.3",
-    "epub": "gitbook epub -v 3.2.3",
-    "mobi": "gitbook mobi -v 3.2.3"
+    "build": "./node_modules/.bin/gitbook build -v 3.2.3",
+    "serve": "./node_modules/.bin/gitbook serve -v 3.2.3",
+    "pdf": "./node_modules/.bin/gitbook pdf -v 3.2.3",
+    "epub": "./node_modules/.bin/gitbook epub -v 3.2.3",
+    "mobi": "./node_modules/.bin/gitbook mobi -v 3.2.3"
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2",
