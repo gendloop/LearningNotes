@@ -123,7 +123,7 @@
     * [Common](docs/summary/specifications/common.md)
     * [Qt](docs/summary/specifications/qt.md)
     * [Abbr](docs/summary/specifications/abbr.md)
-    * [GitHub](docs/summary/specifications/github.md)
+    * [GitHub Action](docs/summary/specifications/github_action.md)
     * [YuQue](docs/summary/specifications/yuque.md)
     * [C++](docs/summary/specifications/c++.md)
     * [C++ Comment](docs/summary/specifications/c++_comment.md)
