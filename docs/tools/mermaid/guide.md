@@ -7,10 +7,10 @@
   * 流程图  `graph` or `flowchart`
   * 时序图  `sequenceDiagram`
   * 甘特图  `gantt`
-  * 类图  `classDiagram`
-  * 状态图 `stateDiagram`
-  * 饼图  `pie`
-  * 旅程图 `journey`
+  * 类图    `classDiagram`
+  * 状态图  `stateDiagram`
+  * 饼图    `pie`
+  * 旅程图  `journey`
 
 ## 图表实例
 
@@ -30,10 +30,25 @@ graph RL
 右 --> 左
 ```
 
-![](res/3e0003416be9d1a455b47e1ac3067b3f.svg)
-![](res/82f25f78891832d31511c61a5b32b8de.svg)
-![](res/bad8eb2638e9c89ea54f3eafd0516db9.svg)
-![](res/21eaa68755b2e6cb14fa516caa27fad5.svg)
+```mermaid
+graph TB
+上 --> 下
+```
+
+```mermaid
+graph BT
+下 --> 上
+```
+
+```mermaid
+graph LR
+左 --> 右
+```
+
+```mermaid
+graph RL
+右 --> 左
+```
 
 #### 形状
 
@@ -54,7 +69,22 @@ graph TB
   id12[\反向梯形/]
 ```
 
-![](res/da7403e5f1f4759b18d927da749d6e0a.svg)
+```mermaid
+graph TB
+   默认方形 ---
+   id1[方形] ---
+   id2(圆边矩形) ---
+   id3([体育场形]) ---
+   id4[[子程序形]] ---
+   id5[(圆柱形)] ---
+   id6((圆形)) ---
+   id7{菱形} ---
+   id8{{六角形}} ---
+   id9[/平行四边形/] ---
+   id10[\反向平行四边形\] ---
+   id11[/梯形\] ---
+   id12[\反向梯形/]
+```
 
 #### 箭头
 
@@ -66,7 +96,13 @@ S3[虚线] -.-> E3[虚线] -.Msg.-> E31[虚线]
 S4[实线] --- E4[粗实线] === E41[虚线] -.- E42[ ]
 ```
 
-![](res/7a5af2073eed3ddc68998941138972b5.svg)
+```mermaid
+graph LR
+S1[实线] --> E1[实线] --Msg--> E12[实线]
+S2[粗实线] ==> E2[粗实线] ==Msg==> E21[粗实线]
+S3[虚线] -.-> E3[虚线] -.Msg.-> E31[虚线]
+S4[实线] --- E4[粗实线] === E41[虚线] -.- E42[ ]
+```
 
 #### 多重链
 
@@ -76,7 +112,11 @@ A --> B & C --> D
 F & G --> H & I
 ```
 
-![](res/97e3112a19102dc9df73c3c646b66d7b.svg)
+```mermaid
+graph LR
+A --> B & C --> D
+F & G --> H & I
+```
 
 #### 子图
 
@@ -93,7 +133,16 @@ A2 --> B2
 end
 ```
 
-![](res/ad84f6327a14be66e46112e291a61f3a.svg)
+```mermaid
+flowchart
+A --> B
+subgraph First
+A1 --> B1
+end
+subgraph Second
+A2 --> B2
+end
+```
 
 #### 描边
 
@@ -105,7 +154,13 @@ classDef green stroke:#0f0
 classDef blue stroke:#00f
 ```
 
-![](res/70097f1eee06d15b4895c29d8ea09697.svg)
+```mermaid
+flowchart LR
+A:::red & B:::green --> C:::blue
+classDef red stroke:#f00
+classDef green stroke:#0f0
+classDef blue stroke:#00f
+```
 
 #### 实例
 
@@ -119,7 +174,15 @@ graph LR
 1-6{1-6} -..-> 2-6{2-6}
 ```
 
-![](res/39b118b59b4e94e4b04851187d23a1be.svg)
+```mermaid
+graph LR
+1-1 --> 2-1
+1-2 --> |Text| 2-2
+1-3 -.Text.-> 2-3
+1-4(1-4) --> 2-4(2-4)
+1-5((1-5)) --> 2-5((2-5))
+1-6{1-6} -..-> 2-6{2-6}
+```
 
 ### 时序图
 
@@ -137,7 +200,17 @@ B ->> A: How about you ?
 A -->> B: Me too.
 ```
 
-![](res/b62cf001a576da1b2fbcb85447f87ab1.svg)
+```mermaid
+sequenceDiagram
+A ->> B: Hello, B, have you finished ?
+loop Check
+ B ->> B: Have I finished ?
+end
+Note right of B: Rational thougths
+B -->> A: Of course I did.
+B ->> A: How about you ?
+A -->> B: Me too.
+```
 
 ### 甘特图
 
@@ -156,7 +229,18 @@ Parallel 3 :des5, after des3, 1d
 Parallel 4 :des6, after des4, 1d
 ```
 
-![](res/e9433fa6bccc93f477ace8c29abe95ed.svg)
+```mermaid
+gantt
+title 计划
+dateFormat YYYY-MM-DD
+section Section1
+Completed  :done, des1, 2023-04-01, 2023-04-03
+Active   :active, des2, 2023-04-02, 1d
+Parallel 1 :des3, after des1, 1d
+Parallel 2 :des4, after des1, 1d
+Parallel 3 :des5, after des3, 1d
+Parallel 4 :des6, after des4, 1d
+```
 
 ### 类图
 
@@ -171,27 +255,54 @@ Base <-- Derived4
 Base *-- Derived5
 
 class Base {
- <<Interface>>
- +int public_var_
- -int private_var_
- +void getPublicMethod()
- -void getPrivateMethod()
+  <<Interface>>
+  +int public_var_
+  -int private_var_
+  +void getPublicMethod()
+  -void getPrivateMethod()
 }
 
 class Derived1 {
- <<Inherited>>
- -dobule private_d1_var_
- +void setPrivateD1Var()
+  <<Inherited>>
+  -dobule private_d1_var_
+  +void setPrivateD1Var()
 }
 
 class Derived2 {
- <<Inherited>>
- -dobule private_d2_var_
- +void setPrivateD2Var()
+  <<Inherited>>
+  -dobule private_d2_var_
+  +void setPrivateD2Var()
 }
 ```
 
-![](res/411a4a285808ced5ea848fdddaa1d7e0.svg)
+```mermaid
+classDiagram
+Base <|-- Derived1
+Base <|-- Derived2: With Meg
+Base -- Derived3
+Base <-- Derived4
+Base *-- Derived5
+
+class Base {
+  <<Interface>>
+  +int public_var_
+  -int private_var_
+  +void getPublicMethod()
+  -void getPrivateMethod()
+}
+
+class Derived1 {
+  <<Inherited>>
+  -dobule private_d1_var_
+  +void setPrivateD1Var()
+}
+
+class Derived2 {
+  <<Inherited>>
+  -dobule private_d2_var_
+  +void setPrivateD2Var()
+}
+```
 
 ### 状态图
 
@@ -209,7 +320,19 @@ stateDiagram
 退出系统 --> [*]
 ```
 
-![](res/6596f2b43522a5790c5de406d864b96b.svg)
+```mermaid
+stateDiagram
+[*] --> 登陆状态
+
+登陆状态 --> 登陆失败
+登陆失败 --> [*]
+
+登陆状态 --> 登陆成功
+登陆成功 --> 进入系统
+进入系统 --> 浏览信息
+浏览信息 --> 退出系统
+退出系统 --> [*]
+```
 
 ### 饼图
 
@@ -222,10 +345,18 @@ title Fruit
 "Orange": 30.55
 "Banana": 30
 "Peach" : 20
-"Pear" : 10
+"Pear"  : 10
 ```
 
-![](res/1b0642124cf6d54ed7eb642a1fc30007.svg)
+```mermaid
+pie
+title Fruit
+"Apple" : 40
+"Orange": 30.55
+"Banana": 30
+"Peach" : 20
+"Pear"  : 10
+```
 
 ### 用户心情旅程图
 
@@ -233,16 +364,27 @@ title Fruit
 journey
 title My Working Day
 section Go to work
-  Get up:    5: Me
+  Get up:       5: Me
   Go upstairs:  3: Me
-  Do Work:    1: Me, Dog
+  Do Work:      1: Me, Dog
 section Go home
-  Sit up:    1: Me
+  Sit up:       1: Me
   Go off Work:  3: Me
-  Get home:   5: Me
+  Get home:     5: Me
 ```
 
-![](res/f3b7a8f43a2a7b54b621a56e569b1e14.svg)
+```mermaid
+journey
+title My Working Day
+section Go to work
+  Get up:       5: Me
+  Go upstairs:  3: Me
+  Do Work:      1: Me, Dog
+section Go home
+  Sit up:       1: Me
+  Go off Work:  3: Me
+  Get home:     5: Me
+```
 
 ## References
 
