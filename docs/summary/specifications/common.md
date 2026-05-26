@@ -5,6 +5,7 @@
 | Folder | any-folder |
 | Project Folder | ProjectFolder |
 | Code Folder | code-folder |
+| Resource Folder | res/filename |
 | File | any_file.md |
 | Code File | code_file.cpp |
 | Chinese name | SimaXiangru |
