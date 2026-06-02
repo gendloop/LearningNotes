@@ -125,3 +125,4 @@
 | Minimum Spanning Tree | MST |
 | job description | JD |
 | tolerance | tol |
+| system | sys |
