@@ -60,6 +60,7 @@
     * [Summary](docs/tools/vim/summary.md)
 
   * [VS](docs/tools/vs/README.md)
+    * [Config](docs/tools/vs/config.md)
     * [Troubleshooting](docs/tools/vs/troubleshooting.md)
 
   * [VSCode](docs/tools/vscode/README.md)
