@@ -1,128 +1,128 @@
 # Abbr
 
-| 描述 | 示例 |
+| 单词 | 缩写 |
 | :--- | :--- |
 | abbreviate | abbr |
 | abbreviation | abbr |
+| algorithm | algo |
+| attribute | attr |
+| axis | ax |
+| backup | bak |
+| calculate | calc |
+| camera | cam |
+| chapter | chpt |
+| circle | cir |
+| coefficient | coeff |
 | collaborative | collab |
-| single | sgl |
-| print work directory | pwd |
-| password | pwd |
+| column | col |
+| command | cmd |
+| company | Co |
+| compare | cmp |
+| computer vision | CV |
+| configuration | config |
 | converter | conv |
 | convertor | conv |
-| result | res |
-| calculate | calc |
-| return | ret |
-| implement | impl |
-| point | pnt |
-| front | fore |
-| square | sqr |
+| cooperation | coop |
+| current | curr |
+| curriculum vitae | CV |
+| define | def |
+| description | desc |
+| difference | diff |
+| directory | dir |
 | distance | dist |
 | distribution | dist |
+| downloadable content | DLC |
+| element | elem |
 | equal | eq |
-| axis | ax |
-| variable | var |
-| directory | dir |
+| evaluation | eval |
+| explorer | ex |
+| expression | expr |
+| figure | fig |
+| front | fore |
 | function | func |
 | function | fn |
-| project | proj |
-| repository | repo |
-| circle | cir |
-| segment | seg |
-| request | req |
-| response | rsp |
-| synchronization | sync |
+| general electric comprehensive operating supervisor | GECOS |
 | geometry | geom |
-| algorithm | algo |
-| library | lib |
-| command | cmd |
-| current | curr |
-| unchanged | unch |
+| group identifier | GID |
+| highlight search | hls |
+| horizontal line | hr |
+| hour | hr |
+| human resources | hr |
+| ignore case | ic |
+| implement | impl |
+| incremental search | is |
+| index | idx |
 | initial | init |
 | initialize | init |
-| process | proc |
-| configuration | config |
-| expression | expr |
-| list | ls |
-| plugin | plg |
-| organization | org |
-| solution | sln |
-| resource | rs |
-| software | sw |
-| coefficient | coeff |
-| operation | op |
-| subroutine | sub |
-| machine | mach |
-| attribute | attr |
-| vector | vec |
-| vertex | vtx |
-| simulation | sim |
-| previous | prev |
-| reference | ref |
-| temporary | tmp |
-| description | desc |
-| element | elem |
-| define | def |
 | interfere | intf |
 | interference | intf |
-| position | pos |
-| column | col |
-| number | num |
-| private | priv |
-| privilege | priv |
+| interval | itv |
+| introduction | intro |
+| job description | JD |
 | length | len |
-| difference | diff |
-| explorer | ex |
+| library | lib |
+| list | ls |
+| lock | lk |
+| machine | mach |
+| measure | meas |
+| Minimum Spanning Tree | MST |
+| minute | min |
+| mirror | mir |
+| miscellaneous | misc |
+| movie | mv |
+| multiple | multi |
+| Network Address Translation | NAT |
+| nota bene | NB |
+| number | num |
+| object | obj |
 | OpenCasCade | OCC |
+| operation | op |
+| opposite | opp |
+| organization | org |
+| package | pkg |
+| password | pwd |
+| plugin | plg |
+| point | pnt |
+| previous | prev |
+| print work directory | pwd |
+| privilege | priv |
+| process | proc |
+| project | proj |
+| position | pos |
+| private | priv |
+| probability | prob |
+| program | prog |
+| reference | ref |
+| repository | repo |
+| request | req |
+| resource | rs |
+| response | rsp |
+| result | res |
+| return | ret |
+| second | sec |
+| section | sec |
+| segment | seg |
+| semicolon | semi |
+| simulation | sim |
+| single | sgl |
+| software | sw |
+| solution | sln |
+| square | sqr |
+| subroutine | sub |
+| synchronization | sync |
+| system | sys |
+| table | tab |
+| temporary | tmp |
+| tolerance | tol |
 | transform | trsf |
 | transformer | trsf |
-| measure | meas |
-| miscellaneous | misc |
-| program | prog |
-| table | tab |
-| figure | fig |
-| index | idx |
-| package | pkg |
-| lock | lk |
-| section | sec |
-| chapter | chpt |
-| opposite | opp |
-| utilities | utils |
-| cooperation | coop |
-| object | obj |
-| mirror | mir |
-| probability | prob |
-| velocity | vel |
-| visit | vis |
-| user identifier | UID |
-| group identifier | GID |
-| general electric comprehensive operating supervisor | GECOS |
-| minute | min |
-| hour | hr |
-| second | sec |
-| versus | vs |
-| nota bene | NB |
-| company | Co |
-| introduction | intro |
-| human resources | hr |
+| unchanged | unch |
 | Unix System Resources | usr |
-| interval | itv |
-| compare | cmp |
-| camera | cam |
-| movie | mv |
-| curriculum vitae | CV |
-| computer vision | CV |
-| horizontal line | hr |
-| ignore case | ic |
-| highlight search | hls |
-| incremental search | is |
-| Network Address Translation | NAT |
-| backup | bak |
-| downloadable content | DLC |
-| evaluation | eval |
-| semicolon | semi |
-| multiple | multi |
-| Minimum Spanning Tree | MST |
-| job description | JD |
-| tolerance | tol |
-| system | sys |
+| user identifier | UID |
+| utilities | utils |
+| variable | var |
+| vector | vec |
+| velocity | vel |
+| versus | vs |
+| vertex | vtx |
+| visit | vis |
