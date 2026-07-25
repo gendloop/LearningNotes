@@ -8,7 +8,7 @@ on:
       - "assets/**"
       - "contents/**"
       - "docs/**"
-      - "INTRO.md"
+      - "README.md"
       - "SUMMARY.md"
       - "GLOSSARY.md"
       - "book.json"
