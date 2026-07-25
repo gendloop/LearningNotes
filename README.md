@@ -2,6 +2,10 @@
 
 学习笔记
 
+⚡ [Abbr](docs/summary/specifications/abbr.md) $\cdot$ [ClassName](docs/summary/specifications/class_name.md) $\cdot$ [vim](docs/tools/vim/summary.md) $\cdot$ [Bash](docs/languages/linux/summary.md) $\cdot$ [Git](docs/tools/git/summary.md)
+
+🔗 [Daily](docs/summary/links/daily.md) $\cdot$ [Search](docs/summary/links/search.md) $\cdot$ [Tools](docs/summary/links/tools.md) $\cdot$ [Resources](docs/summary/links/resources.md) $\cdot$ [Help](docs/summary/links/help.md)
+
 * [Tools](docs/tools/README.md)
   * [7z](docs/tools/7z/README.md)
   * [curl](docs/tools/curl/README.md)
