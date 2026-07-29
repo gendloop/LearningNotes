@@ -20,3 +20,4 @@
 | Decoder | 解码器 |
 | Filter | 过滤器 |
 | Validator | 验证器 |
+| Controller | 控制器 |
