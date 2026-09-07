@@ -145,6 +145,16 @@ git log -3 --format="%s"
 # %ad: 具体日期时间
 ```
 
+### git rebase
+
+```bash
+# 终止rebase操作, 回退到rebase开始前, 不会丢失工作区修改
+git rebase --abort
+
+# 放弃当前commit内工作区的修改, 继续处理下一个commit
+git rebase --skip
+```
+
 ## 示例
 
 ### 通过ssh克隆项目
