@@ -392,3 +392,12 @@ git fetch --prune
 ```bash
 git fetch --prune origin --prune-tags
 ```
+
+### 多用户时, 指定默认用户
+
+```bash
+git config --global credential.https://github.com.username gendloop
+
+# 验证
+git config --global --get credential.https://github.com.username
+```
