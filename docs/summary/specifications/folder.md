@@ -5,6 +5,7 @@
 | admin | 管理 |
 | app | 应用 |
 | article | 资讯 |
+| blobs | 二进制 |
 | common | 公共 |
 | config | 配置 |
 | data | 数据 |
