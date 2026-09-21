@@ -11,6 +11,7 @@
 * [Mermaid](mermaid/README.md)
 * [nginx](nginx/README.md)
 * [ohmyzsh](ohmyzsh/README.md)
+* [OpenCode](opencode/README.md)
 * [qmake](qmake/README.md)
 * [qpdf](qpdf/README.md)
 * [reveal-md](reveal-md/README.md)
