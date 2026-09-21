@@ -15,7 +15,10 @@ Requires Node.js and `gitbook-cli` (pinned to 3.2.3 in scripts).
 
 ## Adding New Pages
 
-**Must update `SUMMARY.md`** when adding or removing docs. GitBook uses this file as its table of contents. Pages not listed in SUMMARY.md will not appear in the built book.
+When adding or removing docs, update **all three**:
+1. `SUMMARY.md` — GitBook's table of contents (pages not listed won't appear in the built book)
+2. Root `README.md` — top-level index
+3. Parent category `README.md` (e.g. `docs/tools/README.md` when adding a tool)
 
 ## Content Conventions
 
