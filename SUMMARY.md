@@ -43,6 +43,9 @@
   * [ohmyzsh](docs/tools/ohmyzsh/README.md)
     * [Guide](docs/tools/ohmyzsh/guide.md)
 
+  * [OpenCode](docs/tools/opencode/README.md)
+    * [Summary](docs/tools/opencode/summary.md)
+
   * [qmake](docs/tools/qmake/README.md)
     * [Guide](docs/tools/qmake/guide.md)
 

@@ -18,6 +18,7 @@
   * [Mermaid](docs/tools/mermaid/README.md)
   * [nginx](docs/tools/nginx/README.md)
   * [ohmyzsh](docs/tools/ohmyzsh/README.md)
+  * [OpenCode](docs/tools/opencode/README.md)
   * [qmake](docs/tools/qmake/README.md)
   * [qpdf](docs/tools/qpdf/README.md)
   * [reveal-md](docs/tools/reveal-md/README.md)
