@@ -26,6 +26,7 @@
 | current | curr |
 | curriculum vitae | CV |
 | define | def |
+| dependencies | deps |
 | description | desc |
 | difference | diff |
 | directory | dir |
