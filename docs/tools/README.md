@@ -1,6 +1,7 @@
 # Tools
 
 * [7z](7z/README.md)
+* [Codex](codex/README.md)
 * [curl](curl/README.md)
 * [Docker](docker/README.md)
 * [Doxygen](doxygen/README.md)

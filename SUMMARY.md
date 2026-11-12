@@ -8,6 +8,10 @@
     * [Guide](docs/tools/7z/guide.md)
     * [Examples](docs/tools/7z/examples.md)
 
+  * [Codex](docs/tools/codex/README.md)
+    * [Guide](docs/tools/codex/guide.md)
+    * [Summary](docs/tools/codex/summary.md)
+
   * [curl](docs/tools/curl/README.md)
     * [Summary](docs/tools/curl/summary.md)
 

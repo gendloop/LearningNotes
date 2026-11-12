@@ -8,6 +8,7 @@
 
 * [Tools](docs/tools/README.md)
   * [7z](docs/tools/7z/README.md)
+  * [Codex](docs/tools/codex/README.md)
   * [curl](docs/tools/curl/README.md)
   * [Docker](docs/tools/docker/README.md)
   * [Doxygen](docs/tools/doxygen/README.md)
