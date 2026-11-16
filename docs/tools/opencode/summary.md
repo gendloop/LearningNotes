@@ -37,6 +37,10 @@ echo 'export EDITOR=vim' >> ~/.bashrc # 设置外部编辑器
 
 列出当前可用模型, 进行切换模型
 
+### `/variants`
+
+推理等级, 表示思考强度和token消耗快慢
+
 ### `/connect`
 
 添加新的提供商, 设置密钥
