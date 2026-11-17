@@ -126,3 +126,19 @@ Codex的配置文件位于`~/.codex`目录下, 需要人工维护的有`config.t
 ### Custom API Key
 
 自定义的OpenAI API Key, 在配置文件`config.toml`中进行设置
+
+## 定制化
+
+In Codex, customization comes from a few layers that work together:
+* **Project guidance** (`AGENTS.md`) for persistent instructions
+* **Memories** for useful context learned from prior work
+* **Skills** for reusable workflows and domain expertise
+* **MCP** for access to external tools and shared systems
+* **Subagents** for delegating work to specialized subagents
+
+These are complementary, not competing.
+
+## References
+
+1. <https://github.com/openai/codex>
+2. [Customization](https://learn.chatgpt.com/docs/customization/overview)
