@@ -38,21 +38,21 @@
     brew install --cask codex
     ```
 
-## 配置
+## 常用配置
 
-Codex的配置文件位于`~/.codex`目录下
+Codex的配置文件位于`~/.codex`目录下, 需要人工维护的有`config.toml`, `AGENTS.md`, `skills/`
 
 * `config.toml`
 
   核心配置文件. 管理模型, 代理, API Key等配置
 
-* `AGENTS.md`
-
-  全局代理规则文件. 为每个会话注入行为约束, 如输出风格, 代码注释要求等
-
 * `auth.json`
 
   认证凭据文件. 存储OpenAI API Key, 以及登录的ChatGPT账号信息
+
+* `AGENTS.md`
+
+  全局代理规则文件. 为每个会话注入行为约束, 如输出风格, 代码注释要求等
 
 * `.codex-gloabl-state.json`
 
@@ -82,6 +82,34 @@ Codex的配置文件位于`~/.codex`目录下
 
   系统技能目录. 存放Codex自带的系统技能
 
+* `plugins/`
+
+  插件缓存. 存放插件缓存和版本化文件
+
+* `browser/`, `computer-use/`
+
+  保存浏览器控制和计算机使用能力相关配置和白名单
+
+* `tmp/`
+
+  临时文件目录
+
+* `version.json`
+
+  版本记录文件. 用于自更新检查, 记录版本信息
+
+* `generated_images/`
+
+  图片产物目录. 存放Codex生成的图片的最终文件
+
+* `ambient-suggestions/`
+
+  环境建议缓存. 存放当前项目上下文生成的建议缓存
+
+* `rules/`
+
+  命令放行规则集. 定义了哪些命令可以安全执行, 如`default.rules`
+
 ## 使用
 
 在工作目录下, 执行`codex`命令
@@ -96,3 +124,5 @@ Codex的配置文件位于`~/.codex`目录下
 这三种方式都需要使用OpenAI API Key. 若已经登录, 需要切换登录方式或账号, 可以执行`codex login`命令或在CLI中执行`/logout`
 
 ### Custom API Key
+
+自定义的OpenAI API Key, 在配置文件`config.toml`中进行设置
