@@ -10,6 +10,7 @@
 
   * [Codex](docs/tools/codex/README.md)
     * [Guide](docs/tools/codex/guide.md)
+    * [AGENTS](docs/tools/codex/agents.md)
     * [Summary](docs/tools/codex/summary.md)
 
   * [curl](docs/tools/curl/README.md)
