@@ -136,7 +136,7 @@ In Codex, customization comes from a few layers that work together:
 * **MCP** for access to external tools and shared systems
 * **Subagents** for delegating work to specialized subagents
 
-These are complementary, not competing.
+These are complementary, not competing. `AGENTS.md` shapes behavior, memories carry local context forward, skills package repeatable processes, and MCP connects Codex to systems outside the local workspace
 
 ## References
 
