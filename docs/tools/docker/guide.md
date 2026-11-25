@@ -66,6 +66,9 @@ sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
   "registry-mirrors": [
+    "https://docker.1ms.run",
+    "https://docker.m.daocloud.io",
+    "https://docker.xuanyuan.me"
     "阿里云: https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors"
     "华为云: https://console.huaweicloud.com/swr/?region=cn-east-3#/swr/mirror"
   ]
