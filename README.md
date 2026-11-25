@@ -17,6 +17,7 @@
   * [GitBook](docs/tools/gitbook/README.md)
   * [GoogleTest](docs/tools/googletest/README.md)
   * [Mermaid](docs/tools/mermaid/README.md)
+  * [new-api](docs/tools/new-api/README.md)
   * [nginx](docs/tools/nginx/README.md)
   * [ohmyzsh](docs/tools/ohmyzsh/README.md)
   * [OpenCode](docs/tools/opencode/README.md)

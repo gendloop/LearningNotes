@@ -42,6 +42,9 @@
   * [Mermaid](docs/tools/mermaid/README.md)
     * [Guide](docs/tools/mermaid/guide.md)
 
+  * [new-api](docs/tools/new-api/README.md)
+    * [Guide](docs/tools/new-api/guide.md)
+
   * [nginx](docs/tools/nginx/README.md)
     * [Guide](docs/tools/nginx/guide.md)
 

@@ -10,6 +10,7 @@
 * [GitBook](gitbook/README.md)
 * [GoogleTest](googletest/README.md)
 * [Mermaid](mermaid/README.md)
+* [new-api](new-api/README.md)
 * [nginx](nginx/README.md)
 * [ohmyzsh](ohmyzsh/README.md)
 * [OpenCode](opencode/README.md)
