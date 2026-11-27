@@ -44,6 +44,8 @@
 
   * [new-api](docs/tools/new-api/README.md)
     * [Guide](docs/tools/new-api/guide.md)
+    * [Config](docs/tools/new-api/config.md)
+    * [Backup](docs/tools/new-api/backup.md)
 
   * [nginx](docs/tools/nginx/README.md)
     * [Guide](docs/tools/nginx/guide.md)

@@ -1,5 +1,7 @@
 # new-api
 
+> v1.0.0-rc.51
+
 New API 是 AI API 网关与用量管理系统, 支持私有化部署, 采用 GNU AGPLv3 开源协议.
 
 ## 安装部署
